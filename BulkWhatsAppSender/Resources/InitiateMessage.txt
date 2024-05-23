@@ -1,0 +1,6 @@
+function InitiateMessage(num,message){
+    var senderLink = document.getElementById("senderLink");
+    senderLink.setAttribute("href",`https://api.whatsapp.com/send?phone=${num}&text=${message}`);
+    senderLink.click();
+
+}InitiateMessage("{{NUM}}","{{MESSAGE}}");

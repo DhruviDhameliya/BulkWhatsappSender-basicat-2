@@ -1,0 +1,11 @@
+function IsLoggedIn(){
+   for( let span of document.getElementsByTagName("span"))
+   {
+      if (span.getAttribute("data-icon")==="default-user") 
+      {
+         return true ;
+      }
+   }
+   return false;
+}
+return IsLoggedIn();

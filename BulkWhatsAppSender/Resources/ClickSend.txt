@@ -1,0 +1,7 @@
+    for (let btnspan of document.getElementsByTagName("span"))
+    {
+        if(btnspan.getAttribute("data-icon")=="send")
+        {
+        btnspan.click();
+        }
+    }

@@ -1,0 +1,6 @@
+function InitiateSender(){
+    var app =document.getElementsByTagName("header")[0];
+    var a=document.createElement("a");
+    a.id="senderLink";
+    app.appendChild(a);
+}InitiateSender();

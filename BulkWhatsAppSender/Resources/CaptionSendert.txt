@@ -1,0 +1,10 @@
+function CaptionSender(body){
+
+for (let ac of document.getElementsByClassName("selectable-text"))
+{
+    if (ac.getAttribute("data-tab")=="6"){
+     //   ac.innerText=body + ".";
+        ac.id="textbody";
+    }
+} 
+} CaptionSender("{{Body}}")

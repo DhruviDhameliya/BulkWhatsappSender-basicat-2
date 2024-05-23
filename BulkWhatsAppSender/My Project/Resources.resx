@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JsExec" xml:space="preserve">
+    <value>document.getElementsByClassName("_1Ra05")[0].innerHTML="&lt;a href='#' id='sender' class='executor'&gt;.&lt;/a&gt;"</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html xmlns:msxsl="urn:schemas-microsoft-com:xslt"&gt;
+   &lt;head&gt;
+      &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-16LE"&gt;
+      &lt;meta content="en-us" http-equiv="Content-Language"&gt;
+      &lt;title _locid="ConversionReport0"&gt;
+         Trueline Solution Bulk Whatsapp Marketing Software - Report
+      &lt;/title&gt;
+      &lt;style&gt; 
+         /* Body style, for the entire document */
+         body
+         {
+         background: #F3F3F4;
+         color: #1E1E1F;
+         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+         padding: 0;
+         margin: 0;
+         }
+         /* Header1 style, used for the main title */
+         h1
+         {
+         padding: 10px 0px 10px 10px;
+         font-size: 21pt;
+         background-color: #FFCC00;
+         color: #201F20;
+         margin: 0;
+         font-weight: normal;
+		 text-align: center;
+         }
+         /* Header2 style, used for "Overview" and other sections */
+         h2
+         {
+         font-size: 18pt;
+         font-weight: normal;
+         padding: 15px 0 5px 0;
+         margin: 0;
+         }
+         /* Header3 style, used for sub-sections, such as project name */
+         h3
+         {
+         font-weight: normal;
+         font-size: 15pt;
+         margin: 0;
+         padding: 15px 0 5px 0;
+         background-color: transparent;
+         }
+         /* Color all hyperlinks one color */
+         a
+         {
+         color: #1382CE;
+         }
+         /* Table styles */ 
+         table
+         {
+         border-spacing: 0 0;
+         border-collapse: collapse;
+         font-size: 10pt;
+         }
+         table th
+         {
+         background: #E7E7E8;
+         text-align: left;
+         text-decoration: none;
+         font-weight: normal;
+         padding: 3px 6px 3px 6px;
+         }
+         table td
+         {
+         vertical-align: top;
+         padding: 3px 6px 5px 5px;
+         margin: 0px;
+         border: 1px solid #E7E7E8;
+         background: #F7F7F8;
+         }
+         /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+         .localLink
+         {
+         color: #1E1E1F;
+         background: #EEEEED;
+         text-decoration: none;
+         }
+         .localLink:hover
+         {
+         color: #1382CE;
+         background: #FFFF99;
+         text-decoration: none;
+         }
+         /* Center text, used in the over views cells that contain message level counts */ 
+         .textCentered
+         {
+         text-align: center;
+         }
+         /* The message cells in message tables should take up all avaliable space */
+         .messageCell
+         {
+         width: 100%;
+         }
+         /* Padding around the content after the h1 */ 
+         #content 
+         {
+         padding: 0px 12px 12px 12px; 
+         }
+         /* The overview table expands to width, with a max width of 97% */ 
+         #overview table
+         {
+         width: auto;
+         max-width: 75%; 
+         }
+         /* The messages tables are always 97% width */
+         #messages table
+         {
+         width: 97%;
+         }
+         /* All Icons */
+         .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+         {
+         min-width:18px;
+         min-height:18px; 
+         background-repeat:no-repeat;
+         background-position:center;
+         }
+         /* Success icon encoded */
+         .IconSuccessEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+         }
+         /* Information icon encoded */
+         .IconInfoEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+         }
+         /* Warning icon encoded */
+         .IconWarningEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+         }
+         /* Error icon encoded */
+         .IconErrorEncoded
+         {
+         /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+         /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+         }
+      .auto-style1 {
+		  color: #1382CE;
+	  }
+      .auto-style2 {
+		  text-align: left;
+	  }
+      &lt;/style&gt;
+      &lt;script type="text/javascript" language="javascript"&gt; 
+         // Startup 
+         // Hook up the the loaded event for the document/window, to linkify the document content
+         var startupFunction = function() { linkifyElement("messages"); };
+         
+         if(window.attachEvent)
+         {
+           window.attachEvent('onload', startupFunction);
+         }
+         else if (window.addEventListener) 
+         {
+           window.addEventListener('load', startupFunction, false);
+         }
+         else 
+         {
+           document.addEventListener('load', startupFunction, false);
+         } 
+         
+         // Toggles the visibility of table rows with the specified name 
+         function toggleTableRowsByName(name)
+         {
+            var allRows = document.getElementsByTagName('tr');
+            for (i=0; i &lt; allRows.length; i++)
+            {
+               var currentName = allRows[i].getAttribute('name');
+               if(!!currentName &amp;&amp; currentName.indexOf(name) == 0)
+               {
+                   var isVisible = allRows[i].style.display == ''; 
+                   isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+               }
+            }
+         }
+         
+         function scrollToFirstVisibleRow(name) 
+         {
+            var allRows = document.getElementsByTagName('tr');
+            for (i=0; i &lt; allRows.length; i++)
+            {
+               var currentName = allRows[i].getAttribute('name');
+               var isVisible = allRows[i].style.display == ''; 
+               if(!!currentName &amp;&amp; currentName.indexOf(name) == 0 &amp;&amp; isVisible)
+               {
+                  allRows[i].scrollIntoView(true); 
+                  return true; 
+               }
+            }
+            
+            return false;
+         }
+         
+         // Linkifies the specified text content, replaces candidate links with html links 
+         function linkify(text)
+         {
+              if(!text || 0 === text.length)
+              {
+                  return text; 
+              }
+         
+              // Find http, https and ftp links and replace them with hyper links 
+              var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&amp;%\$#\=~;\{\}])*/gi;
+              
+              return text.replace(urlLink, '&lt;a href="$&amp;"&gt;$&amp;&lt;/a&gt;') ;
+         }
+         
+         // Linkifies the specified element by ID
+         function linkifyElement(id)
+         {
+             var element = document.getElementById(id);
+             if(!!element)
+             {
+               element.innerHTML = linkify(element.innerHTML); 
+             }
+         }
+         
+         function ToggleMessageVisibility(projectName)
+         {
+           if(!projectName || 0 === projectName.length)
+           {
+             return; 
+           }
+           
+           toggleTableRowsByName("MessageRowClass" + projectName);
+           toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+           toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+         }
+         
+         function ScrollToFirstVisibleMessage(projectName)
+         {
+           if(!projectName || 0 === projectName.length)
+           {
+             return; 
+           }
+           
+           // First try the 'Show messages' row
+           if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+           {
+             // Failed to find a visible row for 'Show messages', try an actual message row 
+             scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+           }
+         }
+      &lt;/script&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+   
+	&lt;a href="https://www.truelinesolution.com/"&gt;
+      &lt;h1 _locid="ConversionReport"&gt;
+		&lt;img src="https://www.truelinesolution.com/public/Asset/logo.png" alt="#1 Digital Marketing Company In Surat | Trueline Solution"&gt;
+		&lt;/h1&gt;
+	&lt;/a&gt;
+	&lt;div style="margin-left: 20px;"&gt;
+	&lt;p&gt;
+	We are also providing&lt;br&gt;
+➡️ Digital Marketing&lt;br&gt;
+➡️ Search Engine Optimization [SEO]&lt;br&gt;
+➡️ Social Media Marketing [SMM]&lt;br&gt;
+➡️ Paid Promotion [Google Ads / Facebook / Instagram / Twitter and Etc.]&lt;br&gt;
+➡️ Website Design &amp; Development&lt;br&gt;
+➡️ Graphics &amp; Design&lt;br&gt;
+&lt;br&gt;
+&lt;div style="display: flex;align-items: flex-start;"&gt;
+&lt;img src="https://www.truelinesolution.com/public/Asset/1.png" style="width:33%; margin: 0 5px;"&gt;
+&lt;img src="https://www.truelinesolution.com/public/Asset/2.png" style="width:33%"&gt;
+&lt;img src="https://www.truelinesolution.com/public/Asset/3.png" style="width:33%;margin: 0 5px;"&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+Contact Details:&lt;br&gt;
+☎ +91 99132 99806 | +91 99132 99862&lt;br&gt;
+🌐 &lt;a href="https://www.truelinesolution.com/"&gt;www.truelinesolution.com&lt;/a&gt;&lt;br&gt;
+📧 Email: contact@truelinesolution.com&lt;br&gt;
+✅ WhatsApp Chat: &lt;a href="https://wa.me/919913299862"&gt;https://wa.me/919913299862&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+If you have any requirements for these services, please Contact me.
+	&lt;/p&gt;
+	&lt;/div&gt;
+      &lt;div id="content"&gt;
+      
+               &lt;h2 _locid="OverviewTitle"&gt;Bulk details&lt;/h2&gt;
+         &lt;div id="overview"&gt;
+            &lt;table style="width: 672px"&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 164px"&gt;Date &lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 89px"&gt;Total 
+					 Numbers&lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 71px"&gt;Successful &lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 63px"&gt;Failed&lt;/th&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                     &lt;td style="width: 164px"&gt;{{DATE}}&lt;/td&gt;
+                     &lt;td style="width: 89px"&gt;{{TOTAL}}&lt;/td&gt;
+                     &lt;td style="width: 71px"&gt;{{SUCCESS}}&lt;/td&gt;
+                     &lt;td style="width: 63px"&gt;{{FAILED}}&lt;/td&gt;
+                  &lt;/tr&gt;
+               &lt;/tbody&gt;
+            &lt;/table&gt;
+
+         &lt;h2 _locid="OverviewTitle"&gt;Messages &amp;amp; Attachments&lt;/h2&gt;
+         &lt;div id="overview"&gt;
+            &lt;table style="width: 677px"&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 207px"&gt;Messages&lt;/th&gt;
+                  &lt;/tr&gt;
+                  {{MESSAGES}}
+               &lt;/tbody&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 207px"&gt;Attachments&lt;/th&gt;
+                  &lt;/tr&gt;
+                   {{ATTACHMENTS}}
+               &lt;/tbody&gt;
+
+            &lt;/table&gt;
+
+      
+         &lt;h2 _locid="OverviewTitle"&gt;Overview&lt;/h2&gt;
+         &lt;div id="overview"&gt;
+            &lt;table style="width: 677px"&gt;
+               &lt;tbody&gt;
+                  &lt;tr&gt;
+                     &lt;th style="width: 15px"&gt;&lt;/th&gt;
+                     &lt;th _locid="ProjectTableHeader" style="width: 207px"&gt;Number&lt;/th&gt;
+                     &lt;th _locid="PathTableHeader" style="width: 63px"&gt;Status&lt;/th&gt;
+                     &lt;th _locid="ErrorsTableHeader" style="width: 246px"&gt;Reason&lt;/th&gt;
+                  &lt;/tr&gt;
+                  {{NUMBERS}}
+               &lt;/tbody&gt;
+            &lt;/table&gt;
+         &lt;/div&gt;
+         
+      &lt;/div&gt;
+      &lt;/div&gt; 
+    
+   &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+/**
+ * Enum for WebDriver status codes.
+ * @enum {number}
+ */
+var StatusCode = {
+  STALE_ELEMENT_REFERENCE: 10,
+  UNKNOWN_ERROR: 13,
+};
+
+/**
+ * Enum for node types.
+ * @enum {number}
+ */
+var NodeType = {
+  ELEMENT: 1,
+  DOCUMENT: 9,
+};
+
+/**
+ * Dictionary key to use for holding an element ID.
+ * @const
+ * @type {string}
+ */
+var ELEMENT_KEY = 'ELEMENT';
+
+/**
+ * True if using W3C Element references.
+ * @const
+ * @type {boolean}
+ */
+var w3cEnabled = false;
+
+/**
+ * True if shadow dom is enabled.
+ * @const
+ * @type {boolean}
+ */
+var SHADOW_DOM_ENABLED = typeof ShadowRoot === 'function';
+
+/**
+ * Generates a unique ID to identify an element.
+ * @void
+ * @return {string} Randomly generated ID.
+ */
+function generateUUID() {
+  var array = new Uint8Array(16);
+  window.crypto.getRandomValues(array);
+  array[6] = 0x40 | (array[6] &amp; 0x0f);
+  array[8] = 0x80 | (array[8] &amp; 0x3f);
+
+  var UUID = "";
+  for (var i = 0; i &lt; 16; i++) {
+    var temp = array[i].toString(16);
+    if (temp.length &lt; 2)
+      temp = "0" + temp;
+    UUID += temp;
+    if (i == 3 || i == 5 || i == 7 || i == 9)
+      UUID += "-";
+  }
+  return UUID;
+};
+
+/**
+ * A cache which maps IDs &lt;-&gt; cached objects for the purpose of identifying
+ * a script object remotely. Uses UUIDs for identification.
+ * @constructor
+ */
+function CacheWithUUID() {
+  this.cache_ = {};
+}
+
+CacheWithUUID.prototype = {
+  /**
+   * Stores a given item in the cache and returns a unique UUID.
+   *
+   * @param {!Object} item The item to store in the cache.
+   * @return {number} The UUID for the cached item.
+   */
+  storeItem: function(item) {
+    for (var i in this.cache_) {
+      if (item == this.cache_[i])
+        return i;
+    }
+    var id = generateUUID();
+    this.cache_[id] = item;
+    return id;
+  },
+
+  /**
+   * Retrieves the cached object for the given ID.
+   *
+   * @param {number} id The ID for the cached item to retrieve.
+   * @return {!Object} The retrieved item.
+   */
+  retrieveItem: function(id) {
+    var item = this.cache_[id];
+    if (item)
+      return item;
+    var error = new Error('not in cache');
+    error.code = StatusCode.STALE_ELEMENT_REFERENCE;
+    error.message = 'element is not attached to the page document';
+    throw error;
+  },
+
+  /**
+   * Clears stale items from the cache.
+   */
+  clearStale: function() {
+    for (var id in this.cache_) {
+      var node = this.cache_[id];
+      if (!this.isNodeReachable_(node))
+        delete this.cache_[id];
+    }
+  },
+
+  /**
+    * @private
+    * @param {!Node} node The node to check.
+    * @return {boolean} If the nodes is reachable.
+    */
+  isNodeReachable_: function(node) {
+    var nodeRoot = getNodeRootThroughAnyShadows(node);
+    return (nodeRoot == document);
+  }
+
+
+};
+
+/**
+ * A cache which maps IDs &lt;-&gt; cached objects for the purpose of identifying
+ * a script object remotely.
+ * @constructor
+ */
+function Cache() {
+  this.cache_ = {};
+  this.nextId_ = 1;
+  this.idPrefix_ = Math.random().toString();
+}
+
+Cache.prototype = {
+
+  /**
+   * Stores a given item in the cache and returns a unique ID.
+   *
+   * @param {!Object} item The item to store in the cache.
+   * @return {number} The ID for the cached item.
+   */
+  storeItem: function(item) {
+    for (var i in this.cache_) {
+      if (item == this.cache_[i])
+        return i;
+    }
+    var id = this.idPrefix_  + '-' + this.nextId_;
+    this.cache_[id] = item;
+    this.nextId_++;
+    return id;
+  },
+
+  /**
+   * Retrieves the cached object for the given ID.
+   *
+   * @param {number} id The ID for the cached item to retrieve.
+   * @return {!Object} The retrieved item.
+   */
+  retrieveItem: function(id) {
+    var item = this.cache_[id];
+    if (item)
+      return item;
+    var error = new Error('not in cache');
+    error.code = StatusCode.STALE_ELEMENT_REFERENCE;
+    error.message = 'element is not attached to the page document';
+    throw error;
+  },
+
+  /**
+   * Clears stale items from the cache.
+   */
+  clearStale: function() {
+    for (var id in this.cache_) {
+      var node = this.cache_[id];
+      if (!this.isNodeReachable_(node))
+        delete this.cache_[id];
+    }
+  },
+
+  /**
+    * @private
+    * @param {!Node} node The node to check.
+    * @return {boolean} If the nodes is reachable.
+    */
+  isNodeReachable_: function(node) {
+    var nodeRoot = getNodeRootThroughAnyShadows(node);
+    return (nodeRoot == document);
+  }
+};
+
+/**
+ * Returns the root element of the node.  Found by traversing parentNodes until
+ * a node with no parent is found.  This node is considered the root.
+ * @param {?Node} node The node to find the root element for.
+ * @return {?Node} The root node.
+ */
+function getNodeRoot(node) {
+  while (node &amp;&amp; node.parentNode) {
+    node = node.parentNode;
+  }
+  return node;
+}
+
+/**
+ * Returns the root element of the node, jumping up through shadow roots if
+ * any are found.
+ */
+function getNodeRootThroughAnyShadows(node) {
+  var root = getNodeRoot(node);
+  while (SHADOW_DOM_ENABLED &amp;&amp; root instanceof ShadowRoot) {
+    root = getNodeRoot(root.host);
+  }
+  return root;
+}
+
+/**
+ * Returns the global object cache for the page.
+ * @param {Document=} opt_doc The document whose cache to retrieve. Defaults to
+ *     the current document.
+ * @return {!Cache} The page's object cache.
+ */
+function getPageCache(opt_doc, opt_w3c) {
+  var doc = opt_doc || document;
+  var w3c = opt_w3c || false;
+  var key = '$cdc_asdjflasutopfhvcZLmcfl_';
+  if (w3c) {
+    if (!(key in doc))
+      doc[key] = new CacheWithUUID();
+    return doc[key];
+  } else {
+    if (!(key in doc))
+      doc[key] = new Cache();
+    return doc[key];
+  }
+}
+
+/**
+ * Wraps the given value to be transmitted remotely by converting
+ * appropriate objects to cached object IDs.
+ *
+ * @param {*} value The value to wrap.
+ * @return {*} The wrapped value.
+ */
+function wrap(value) {
+  // As of crrev.com/1316933002, typeof() for some elements will return
+  // 'function', not 'object'. So we need to check for both non-null objects, as
+  // well Elements that also happen to be callable functions (e.g. &lt;embed&gt; and
+  // &lt;object&gt; elements). Note that we can not use |value instanceof Object| here
+  // since this does not work with frames/iframes, for example
+  // frames[0].document.body instanceof Object == false even though
+  // typeof(frames[0].document.body) == 'object'.
+  if ((typeof(value) == 'object' &amp;&amp; value != null) ||
+      (typeof(value) == 'function' &amp;&amp; value.nodeName &amp;&amp;
+       value.nodeType == NodeType.ELEMENT)) {
+    var nodeType = value['nodeType'];
+    if (nodeType == NodeType.ELEMENT || nodeType == NodeType.DOCUMENT
+        || (SHADOW_DOM_ENABLED &amp;&amp; value instanceof ShadowRoot)) {
+      var wrapped = {};
+      var root = getNodeRootThroughAnyShadows(value);
+      wrapped[ELEMENT_KEY] = getPageCache(root, w3cEnabled).storeItem(value);
+      return wrapped;
+    }
+
+    var obj;
+    if (typeof(value.length) == 'number') {
+      obj = [];
+      for (var i = 0; i &lt; value.length; i++)
+        obj[i] = wrap(value[i]);
+    } else {
+      obj = {};
+      for (var prop in value)
+        obj[prop] = wrap(value[prop]);
+    }
+    return obj;
+  }
+  return value;
+}
+
+/**
+ * Unwraps the given value by converting from object IDs to the cached
+ * objects.
+ *
+ * @param {*} value The value to unwrap.
+ * @param {Cache} cache The cache to retrieve wrapped elements from.
+ * @return {*} The unwrapped value.
+ */
+function unwrap(value, cache) {
+  if (typeof(value) == 'object' &amp;&amp; value != null) {
+    if (ELEMENT_KEY in value)
+      return cache.retrieveItem(value[ELEMENT_KEY]);
+
+    var obj;
+    if (typeof(value.length) == 'number') {
+      obj = [];
+      for (var i = 0; i &lt; value.length; i++)
+        obj[i] = unwrap(value[i], cache);
+    } else {
+      obj = {};
+      for (var prop in value)
+        obj[prop] = unwrap(value[prop], cache);
+    }
+    return obj;
+  }
+  return value;
+}
+
+/**
+ * Calls a given function and returns its value.
+ *
+ * The inputs to and outputs of the function will be unwrapped and wrapped
+ * respectively, unless otherwise specified. This wrapping involves converting
+ * between cached object reference IDs and actual JS objects. The cache will
+ * automatically be pruned each call to remove stale references.
+ *
+ * @param  {Array&lt;string&gt;} shadowHostIds The host ids of the nested shadow
+ *     DOMs the function should be executed in the context of.
+ * @param {function(...[*]) : *} func The function to invoke.
+ * @param {!Array&lt;*&gt;} args The array of arguments to supply to the function,
+ *     which will be unwrapped before invoking the function.
+ * @param {boolean} w3c Whether to return a W3C compliant element reference.
+ * @param {boolean=} opt_unwrappedReturn Whether the function's return value
+ *     should be left unwrapped.
+ * @return {*} An object containing a status and value property, where status
+ *     is a WebDriver status code and value is the wrapped value. If an
+ *     unwrapped return was specified, this will be the function's pure return
+ *     value.
+ */
+function callFunction(shadowHostIds, func, args, w3c, opt_unwrappedReturn) {
+  if (w3c) {
+    w3cEnabled = true;
+    ELEMENT_KEY = 'element-6066-11e4-a52e-4f735466cecf';
+
+  }
+  var cache = getPageCache(null, w3cEnabled);
+  cache.clearStale();
+  if (shadowHostIds &amp;&amp; SHADOW_DOM_ENABLED) {
+    for (var i = 0; i &lt; shadowHostIds.length; i++) {
+      var host = cache.retrieveItem(shadowHostIds[i]);
+      // TODO(zachconrad): Use the olderShadowRoot API when available to check
+      // all of the shadow roots.
+      cache = getPageCache(host.webkitShadowRoot, w3cEnabled);
+      cache.clearStale();
+    }
+  }
+
+  if (opt_unwrappedReturn)
+    return func.apply(null, unwrap(args, cache));
+
+  var status = 0;
+  try {
+    var returnValue = wrap(func.apply(null, unwrap(args, cache)));
+  } catch (error) {
+    status = error.code || StatusCode.UNKNOWN_ERROR;
+    var returnValue = error.message;
+  }
+  return {
+      status: status,
+      value: returnValue
+  }
+}
+; return callFunction.apply(null, arguments) }
+).apply(null, [null, function(){ contacts = ["9613127664@c.us","9613509619@c.us","9613985851@c.us","9613654307@c.us","96171263928@c.us","9613014502@c.us","9613789454@c.us","9613709106@c.us"]; window.validContact = null;
+											counter = 0;
+											window.processCompleted = false;
+											 Promise.all(contacts.map(function(item){
+											 return queryExistClass.queryExist(item).then(function(e) {
+													debugger;
+													counter++;
+											 		if (200 === e.status) { if(window.validContact == null) {window.validContact = new Array;} window.validContact.push(e.jid.user); }
+													if(contacts.length == counter){window.processCompleted = true;}
+											})}));}, [], false])</value>
+  </data>
+  <data name="JavaScriptInject" xml:space="preserve">
+    <value>(function(){var StatusCode={STALE_ELEMENT_REFERENCE:10,UNKNOWN_ERROR:13,};var NodeType={ELEMENT:1,DOCUMENT:9,};var ELEMENT_KEY='ELEMENT';var w3cEnabled=!1;var SHADOW_DOM_ENABLED=typeof ShadowRoot==='function';function generateUUID(){var array=new Uint8Array(16);window.crypto.getRandomValues(array);array[6]=0x40|(array[6]&amp;0x0f);array[8]=0x80|(array[8]&amp;0x3f);var UUID="";for(var i=0;i&lt;16;i++){var temp=array[i].toString(16);if(temp.length&lt;2)
+temp="0"+temp;UUID+=temp;if(i==3||i==5||i==7||i==9)
+UUID+="-"}
+return UUID};function CacheWithUUID(){this.cache_={}}
+CacheWithUUID.prototype={storeItem:function(item){for(var i in this.cache_){if(item==this.cache_[i])
+return i}
+var id=generateUUID();this.cache_[id]=item;return id},retrieveItem:function(id){var item=this.cache_[id];if(item)
+return item;var error=new Error('not in cache');error.code=StatusCode.STALE_ELEMENT_REFERENCE;error.message='element is not attached to the page document';throw error},clearStale:function(){for(var id in this.cache_){var node=this.cache_[id];if(!this.isNodeReachable_(node))
+delete this.cache_[id]}},isNodeReachable_:function(node){var nodeRoot=getNodeRootThroughAnyShadows(node);return(nodeRoot==document)}};function Cache(){this.cache_={};this.nextId_=1;this.idPrefix_=Math.random().toString()}
+Cache.prototype={storeItem:function(item){for(var i in this.cache_){if(item==this.cache_[i])
+return i}
+var id=this.idPrefix_+'-'+this.nextId_;this.cache_[id]=item;this.nextId_++;return id},retrieveItem:function(id){var item=this.cache_[id];if(item)
+return item;var error=new Error('not in cache');error.code=StatusCode.STALE_ELEMENT_REFERENCE;error.message='element is not attached to the page document';throw error},clearStale:function(){for(var id in this.cache_){var node=this.cache_[id];if(!this.isNodeReachable_(node))
+delete this.cache_[id]}},isNodeReachable_:function(node){var nodeRoot=getNodeRootThroughAnyShadows(node);return(nodeRoot==document)}};function getNodeRoot(node){while(node&amp;&amp;node.parentNode){node=node.parentNode}
+return node}
+function getNodeRootThroughAnyShadows(node){var root=getNodeRoot(node);while(SHADOW_DOM_ENABLED&amp;&amp;root instanceof ShadowRoot){root=getNodeRoot(root.host)}
+return root}
+function getPageCache(opt_doc,opt_w3c){var doc=opt_doc||document;var w3c=opt_w3c||!1;var key='$cdc_asdjflasutopfhvcZLmcfl_';if(w3c){if(!(key in doc))
+doc[key]=new CacheWithUUID();return doc[key]}else{if(!(key in doc))
+doc[key]=new Cache();return doc[key]}}
+function wrap(value){if((typeof(value)=='object'&amp;&amp;value!=null)||(typeof(value)=='function'&amp;&amp;value.nodeName&amp;&amp;value.nodeType==NodeType.ELEMENT)){var nodeType=value.nodeType;if(nodeType==NodeType.ELEMENT||nodeType==NodeType.DOCUMENT||(SHADOW_DOM_ENABLED&amp;&amp;value instanceof ShadowRoot)){var wrapped={};var root=getNodeRootThroughAnyShadows(value);wrapped[ELEMENT_KEY]=getPageCache(root,w3cEnabled).storeItem(value);return wrapped}
+var obj;if(typeof(value.length)=='number'){obj=[];for(var i=0;i&lt;value.length;i++)
+obj[i]=wrap(value[i]);}else{obj={};for(var prop in value)
+obj[prop]=wrap(value[prop]);}
+return obj}
+return value}
+function unwrap(value,cache){if(typeof(value)=='object'&amp;&amp;value!=null){if(ELEMENT_KEY in value)
+return cache.retrieveItem(value[ELEMENT_KEY]);var obj;if(typeof(value.length)=='number'){obj=[];for(var i=0;i&lt;value.length;i++)
+obj[i]=unwrap(value[i],cache);}else{obj={};for(var prop in value)
+obj[prop]=unwrap(value[prop],cache);}
+return obj}
+return value}
+function callFunction(shadowHostIds,func,args,w3c,opt_unwrappedReturn){if(w3c){w3cEnabled=!0;ELEMENT_KEY='element-6066-11e4-a52e-4f735466cecf'}
+var cache=getPageCache(null,w3cEnabled);cache.clearStale();if(shadowHostIds&amp;&amp;SHADOW_DOM_ENABLED){for(var i=0;i&lt;shadowHostIds.length;i++){var host=cache.retrieveItem(shadowHostIds[i]);cache=getPageCache(host.webkitShadowRoot,w3cEnabled);cache.clearStale()}}
+if(opt_unwrappedReturn)
+return func.apply(null,unwrap(args,cache));var status=0;try{var returnValue=wrap(func.apply(null,unwrap(args,cache)))}catch(error){status=error.code||StatusCode.UNKNOWN_ERROR;var returnValue=error.message}
+return{status:status,value:returnValue}};return callFunction.apply(null,arguments)}).apply(null,[null,function(){(()=&gt;{var runCount=0;var chatPanalObject=document.querySelectorAll('[class="_2zCDG"]');window.Infi=function findValueByPrefix(object,prefix)
+{for(var property in object)
+{if(object.hasOwnProperty(property)&amp;&amp;property.toString().startsWith(prefix))
+{return object[property]}}};var reactHandler=window.Infi(chatPanalObject[0],'__reactEventHandlers');reactHandler.children.props.chat._ProxyState$state.__x_id.user='{{{number}}}';function LoadContact()
+{runCount ++;var renderContactList=document.querySelectorAll('[class="_1WBXd"]');if(renderContactList.length&gt;0)
+{renderContactList[0].click();var ContactInfo=document.querySelectorAll('[class="_1CSx9"]');if(ContactInfo.length&gt;0)
+{var closebutton=ContactInfo[0].querySelectorAll('[class="_1aTxu"]');closebutton[0].click();return!0}
+else{return!1}}}
+while(runCount&lt;=5&amp;&amp;!LoadContact()){}})()},[],!1])</value>
+  </data>
+  <data name="WhatsAppApi" xml:space="preserve">
+    <value>const _0x5493=['create','downloadFile','addEventListener','promoteParticipantAdminGroup','getBufferedNewMessages','prototype','apply','_newMessagesBuffer','string','stale','messages','stickers','stringify','width','ServiceWorker','keys','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','sendDeleteMsgs','image/webp','contactUnblock','isMe','data:image/webp;base64,','loadEarlierMsgs','raw','_quotedMsgObj','toUpperCase','Wap','function','profilePicThumb','send','pageunload','update','default','StickerPack','isVerified','loadAllEarlierMessages','filter','mimetype','__x_clientUrl','getItem','participants','isArray','isMyContact','body','isWAContact','_getGroupParticipants','getChat','getAllContacts','modelClass','charCodeAt','readyState','__x_id','isNotification','getAllChatsWithNewMsg','isServer','readAsDataURL','checksum','getNewMessageId','getCommonGroups','isLoggedIn','filehash','processMessageObj','sendExit','noEarlierMsgs','sendVCard','indexOf','substr','waitNewMessages','imgFull','getUnreadMessagesInChat','B64','querySelector','*[data-icon=\x22alert-phone\x22]','response','splice','demoteParticipants','withCredentials','statusMute','_newMessagesQueue','isHighLevelVerified','ceil','__x_contact','sendMessage','type','arrayBuffer','sendMessageToID','_sendSticker','generateMediaKey','page\x20will\x20be\x20reloaded,\x20wait\x20and\x20register\x20callback\x20again.','sendDelete','areAllMessagesLoaded','fromMe','SendTextMsgToChat','get','forEach','_models','UploadUtils','sendImageAsSticker','Error\x20in\x20group:','Sticker','find','result','getAllMessageIdsInChat','isGroupMsg','all','getTime','refTTL','unshift','callback','isNewMsg','_pageFetchPromises','getAllGroupMetadata','sendMessage2','getBatteryLevel','Presence','decryptE2EMedia','WapQuery','SendSeen','saved_msgs','_serializeContactObj','isMedia','ARRAYBUFFER','values','mediaData','initialize','file.webp','floor','tag','getMessageById','sendConversationDelete','getChatById','mediaStage','getGroupOwnerID','setBlock','presence','__x_initialized','_serializeNumberStatusObj','__x_mediaData','error','multi_vcard','WAPI','height','encryptAndUploadFile','getAllGroups','sendImageFromDatabasePicBot','removeParticipants','split','isPSA','add','__x_mediaKey','getGroupAdmins','_serialized','sendImage','ref','getMe','clientUrl','UserConstructor','eurl','msgs','isAdmin','msgLoadState','boolean','statusText','downloadFileWithCredentials','base64ImageToFile','foundedModule','isConnected','exports','Msg','encryptAndUpload','img','STATE','ProfilePicThumb','parasite','_unloadInform','toJSON','contactBlock','getMyContacts','deleteConversation','_serializeChatObj','INIT','getLastMsgKeyForAction','addAndSendMsg','isUserCreatedType','remove','Conn','sendContactList','unload','status','__x_isSentByMe','onload','isLink','getUnreadMessages','mediaKey','isUser','processAttachments','getNewId','Chat','contact','models','Store','MediaCollection','leaveGroup','GET','unreadCount','rmAfterUse','_serializeMessageObj','removeParticipantGroup','charAt','getHash','haveNewMsg','assign','jid','random','isGroup','queryExist','STREAM','_STICKERDUMP','catch','chat','open','sendMessageWithThumb','getGroupMetadata','getGroupParticipantIDs','push','getChatByName','_serializeRawObj','sendSeen','pageWithIndex','sendRevokeMsgs','length','value','sendContact','GroupMetadata','getAllMessagesInChat','isSentByMe','includes','caption','Contact','conditions','remote','responseType','parse','CryptoLib','map','getAllChatIds','SHA-256','getFileHash','fetch','_index','senderObj','url','log','off','vcard','_newMessagesDebouncer','uploadhash','getContact','_newMessagesCallbacks','then','blob','sendToChat','_serializeProfilePicThumb','collection','getAllChats','createGroup','object','promoteParticipants'];(function(_0x3069d1,_0x54937f){const _0x55b1e1=function(_0x56e2a4){while(--_0x56e2a4){_0x3069d1['push'](_0x3069d1['shift']());}};_0x55b1e1(++_0x54937f);}(_0x5493,0x12f));const _0x55b1=function(_0x3069d1,_0x54937f){_0x3069d1=_0x3069d1-0x0;let _0x55b1e1=_0x5493[_0x3069d1];return _0x55b1e1;};if(!window['Store']){(function(){function _0x5b2cdb(_0x58cd93){let _0x9c98cb=0x0;let _0x5a3be1=[{'id':_0x55b1('0xa5'),'conditions':_0x2cc2d4=&gt;_0x2cc2d4['Chat']&amp;&amp;_0x2cc2d4[_0x55b1('0x85')]?_0x2cc2d4:null},{'id':_0x55b1('0xa6'),'conditions':_0x1133a4=&gt;_0x1133a4[_0x55b1('0x109')]&amp;&amp;_0x1133a4[_0x55b1('0x109')][_0x55b1('0xee')]&amp;&amp;_0x1133a4[_0x55b1('0x109')][_0x55b1('0xee')][_0x55b1('0xa0')]?_0x1133a4[_0x55b1('0x109')]:null},{'id':'MediaProcess','conditions':_0x206a96=&gt;_0x206a96['BLOB']?_0x206a96:null},{'id':_0x55b1('0x103'),'conditions':_0x45bff8=&gt;_0x45bff8[_0x55b1('0xe6')]?_0x45bff8:null},{'id':_0x55b1('0xf7'),'conditions':_0x24e190=&gt;_0x24e190[_0x55b1('0x109')]&amp;&amp;_0x24e190[_0x55b1('0x109')]['killServiceWorker']?_0x24e190:null},{'id':'Presence','conditions':_0x4f8223=&gt;_0x4f8223[_0x55b1('0x109')]&amp;&amp;_0x4f8223['default'][_0x55b1('0x4f')]?_0x4f8223[_0x55b1('0x109')]:null},{'id':'State','conditions':_0x363d97=&gt;_0x363d97[_0x55b1('0x88')]&amp;&amp;_0x363d97[_0x55b1('0xb5')]?_0x363d97:null},{'id':'WapDelete','conditions':_0xf19e36=&gt;_0xf19e36[_0x55b1('0x5e')]&amp;&amp;_0xf19e36[_0x55b1('0x5e')][_0x55b1('0xc3')]==0x2?_0xf19e36:null},{'id':_0x55b1('0x96'),'conditions':_0x4f368b=&gt;_0x4f368b[_0x55b1('0x109')]&amp;&amp;_0x4f368b[_0x55b1('0x109')][_0x55b1('0x76')]&amp;&amp;_0x4f368b[_0x55b1('0x109')][_0x55b1('0x47')]?_0x4f368b[_0x55b1('0x109')]:null},{'id':_0x55b1('0x51'),'conditions':_0x44da25=&gt;_0x44da25['queryExist']?_0x44da25:_0x44da25[_0x55b1('0x109')]&amp;&amp;_0x44da25[_0x55b1('0x109')]['queryExist']?_0x44da25[_0x55b1('0x109')]:null},{'id':_0x55b1('0xd0'),'conditions':_0x3d2a9b=&gt;_0x3d2a9b[_0x55b1('0x50')]?_0x3d2a9b:null},{'id':'OpenChat','conditions':_0x374238=&gt;_0x374238[_0x55b1('0x109')]&amp;&amp;_0x374238[_0x55b1('0x109')][_0x55b1('0xee')]&amp;&amp;_0x374238['default'][_0x55b1('0xee')]['openChat']?_0x374238[_0x55b1('0x109')]:null},{'id':_0x55b1('0x79'),'conditions':_0x1330b1=&gt;_0x1330b1[_0x55b1('0x109')]&amp;&amp;_0x1330b1[_0x55b1('0x109')][_0x55b1('0xee')]&amp;&amp;_0x1330b1[_0x55b1('0x109')][_0x55b1('0xee')][_0x55b1('0x13')]&amp;&amp;_0x1330b1[_0x55b1('0x109')][_0x55b1('0xee')][_0x55b1('0x9f')]?_0x1330b1[_0x55b1('0x109')]:null},{'id':_0x55b1('0x39'),'conditions':_0x572084=&gt;_0x572084['sendTextMsgToChat']?_0x572084['sendTextMsgToChat']:null},{'id':_0x55b1('0x52'),'conditions':_0x35c01c=&gt;_0x35c01c[_0x55b1('0xc0')]?_0x35c01c[_0x55b1('0xc0')]:null},{'id':_0x55b1('0x36'),'conditions':_0x495b1e=&gt;_0x495b1e[_0x55b1('0x36')]?_0x495b1e['sendDelete']:null},{'id':_0x55b1('0x3d'),'conditions':_0x31f867=&gt;_0x31f867[_0x55b1('0x109')]&amp;&amp;_0x31f867[_0x55b1('0x109')][_0x55b1('0x86')]?_0x31f867[_0x55b1('0x109')]:null}];for(let _0x281ee6 in _0x58cd93){if(typeof _0x58cd93[_0x281ee6]===_0x55b1('0xe7')&amp;&amp;_0x58cd93[_0x281ee6]!==null){let _0x57ccdf=Object[_0x55b1('0x57')](_0x58cd93[_0x281ee6])[0x0];if(typeof _0x57ccdf==='object'&amp;&amp;_0x57ccdf[_0x55b1('0x84')]){for(let _0x364a0c in _0x58cd93[_0x281ee6]){let _0x36a871=_0x58cd93(_0x364a0c);if(!_0x36a871){continue;}_0x5a3be1[_0x55b1('0x3b')](_0x2bebfc=&gt;{if(!_0x2bebfc[_0x55b1('0xcc')]||_0x2bebfc[_0x55b1('0x82')])return;let _0x11580e=_0x2bebfc[_0x55b1('0xcc')](_0x36a871);if(_0x11580e!==null){_0x9c98cb++;_0x2bebfc[_0x55b1('0x82')]=_0x11580e;}});if(_0x9c98cb==_0x5a3be1[_0x55b1('0xc3')]){break;}}let _0x510244=_0x5a3be1[_0x55b1('0x41')](_0x351446=&gt;_0x351446['id']===_0x55b1('0xa5'));window[_0x55b1('0xa5')]=_0x510244[_0x55b1('0x82')]?_0x510244[_0x55b1('0x82')]:{};_0x5a3be1[_0x55b1('0x27')](_0x5a3be1[_0x55b1('0x1e')](_0x510244),0x1);_0x5a3be1[_0x55b1('0x3b')](_0x3b33ca=&gt;{if(_0x3b33ca[_0x55b1('0x82')]){window[_0x55b1('0xa5')][_0x3b33ca['id']]=_0x3b33ca[_0x55b1('0x82')];}});window[_0x55b1('0xa5')][_0x55b1('0x2f')]=function(_0x3e183b){return window[_0x55b1('0xa5')]['SendTextMsgToChat'](this,...arguments);};}}}if(window[_0x55b1('0xa5')][_0x55b1('0x4f')]){for(const _0x1c3f0b in window[_0x55b1('0xa5')][_0x55b1('0x4f')]){if(_0x1c3f0b===_0x55b1('0x4f')){continue;}window[_0x55b1('0xa5')][_0x1c3f0b]=window[_0x55b1('0xa5')][_0x55b1('0x4f')][_0x1c3f0b]||window['Store'][_0x1c3f0b];}}return window[_0x55b1('0xa5')];}if(typeof webpackJsonp===_0x55b1('0x104')){webpackJsonp([],{'parasite':(_0x1070fb,_0x5795aa,_0x5e49bb)=&gt;_0x5b2cdb(_0x5e49bb)},[_0x55b1('0x8a')]);}else{webpackJsonp[_0x55b1('0xbd')]([[_0x55b1('0x8a')],{'parasite':function(_0x2864c7,_0x14d8cd,_0x1b86ce){_0x5b2cdb(_0x1b86ce);}},[[_0x55b1('0x8a')]]]);}}());}window[_0x55b1('0x69')]={'lastRead':{}};window['WAPI'][_0x55b1('0xbf')]=_0x48ecce=&gt;{if(_0x48ecce){return _0x48ecce[_0x55b1('0x8c')]();}return{};};window[_0x55b1('0x69')][_0x55b1('0x90')]=_0x409b0c=&gt;{if(_0x409b0c==undefined){return null;}return Object[_0x55b1('0xb0')](window[_0x55b1('0x69')][_0x55b1('0xbf')](_0x409b0c),{'kind':_0x409b0c['kind'],'isGroup':_0x409b0c['isGroup'],'contact':_0x409b0c[_0x55b1('0xa3')]?window[_0x55b1('0x69')][_0x55b1('0x54')](_0x409b0c[_0x55b1('0xa3')]):null,'groupMetadata':_0x409b0c['groupMetadata']?window[_0x55b1('0x69')]['_serializeRawObj'](_0x409b0c['groupMetadata']):null,'presence':_0x409b0c[_0x55b1('0x63')]?window[_0x55b1('0x69')][_0x55b1('0xbf')](_0x409b0c[_0x55b1('0x63')]):null,'msgs':null});};window['WAPI'][_0x55b1('0x54')]=_0x20f40f=&gt;{if(_0x20f40f==undefined){return null;}return Object[_0x55b1('0xb0')](window[_0x55b1('0x69')][_0x55b1('0xbf')](_0x20f40f),{'formattedName':_0x20f40f['formattedName'],'isHighLevelVerified':_0x20f40f[_0x55b1('0x2c')],'isMe':_0x20f40f[_0x55b1('0xfd')],'isMyContact':_0x20f40f[_0x55b1('0x7')],'isPSA':_0x20f40f['isPSA'],'isUser':_0x20f40f[_0x55b1('0x9f')],'isVerified':_0x20f40f[_0x55b1('0x10b')],'isWAContact':_0x20f40f[_0x55b1('0x9')],'profilePicThumbObj':_0x20f40f[_0x55b1('0x105')]?WAPI[_0x55b1('0xe3')](_0x20f40f[_0x55b1('0x105')]):{},'statusMute':_0x20f40f[_0x55b1('0x2a')],'msgs':null});};window[_0x55b1('0x69')][_0x55b1('0xab')]=_0x1d55d6=&gt;{if(_0x1d55d6==undefined){return null;}return Object[_0x55b1('0xb0')](window['WAPI'][_0x55b1('0xbf')](_0x1d55d6),{'id':_0x1d55d6['id'][_0x55b1('0x74')],'sender':_0x1d55d6[_0x55b1('0xd7')]?WAPI[_0x55b1('0x54')](_0x1d55d6[_0x55b1('0xd7')]):null,'timestamp':_0x1d55d6['t'],'content':_0x1d55d6[_0x55b1('0x8')],'isGroupMsg':_0x1d55d6[_0x55b1('0x44')],'isLink':_0x1d55d6[_0x55b1('0x9c')],'isMMS':_0x1d55d6['isMMS'],'isMedia':_0x1d55d6[_0x55b1('0x55')],'isNotification':_0x1d55d6['isNotification'],'isPSA':_0x1d55d6[_0x55b1('0x70')],'type':_0x1d55d6[_0x55b1('0x30')],'chat':WAPI[_0x55b1('0x90')](_0x1d55d6[_0x55b1('0xb8')]),'chatId':_0x1d55d6['id'][_0x55b1('0xcd')],'quotedMsgObj':WAPI[_0x55b1('0xab')](_0x1d55d6[_0x55b1('0x101')]),'mediaData':window[_0x55b1('0x69')]['_serializeRawObj'](_0x1d55d6[_0x55b1('0x58')])});};window[_0x55b1('0x69')]['_serializeNumberStatusObj']=_0x5eadb6=&gt;{if(_0x5eadb6==undefined){return null;}return Object[_0x55b1('0xb0')]({},{'id':_0x5eadb6[_0x55b1('0xb1')],'status':_0x5eadb6[_0x55b1('0x99')],'isBusiness':_0x5eadb6['biz']===!![],'canReceiveMessage':_0x5eadb6[_0x55b1('0x99')]===0xc8});};window[_0x55b1('0x69')][_0x55b1('0xe3')]=_0x422ab1=&gt;{if(_0x422ab1==undefined){return null;}return Object[_0x55b1('0xb0')]({},{'eurl':_0x422ab1[_0x55b1('0x7a')],'id':_0x422ab1['id'],'img':_0x422ab1[_0x55b1('0x87')],'imgFull':_0x422ab1[_0x55b1('0x21')],'raw':_0x422ab1[_0x55b1('0x100')],'tag':_0x422ab1[_0x55b1('0x5c')]});};window[_0x55b1('0x69')][_0x55b1('0xe6')]=function(_0x2d6809,_0x497035){if(!Array['isArray'](_0x497035)){_0x497035=[_0x497035];}return window['Store'][_0x55b1('0x103')][_0x55b1('0xe6')](_0x2d6809,_0x497035);};window[_0x55b1('0x69')][_0x55b1('0xa7')]=function(_0x190a32){_0x190a32=typeof _0x190a32=='string'?_0x190a32:_0x190a32[_0x55b1('0x74')];var _0x3dde99=WAPI[_0x55b1('0xb')](_0x190a32);return _0x3dde99[_0x55b1('0x1b')]();};window[_0x55b1('0x69')][_0x55b1('0xc')]=function(_0x5cd42f){const _0x452d89=window[_0x55b1('0xa5')]['Contact']['map'](_0x581279=&gt;WAPI[_0x55b1('0x54')](_0x581279));if(_0x5cd42f!==undefined)_0x5cd42f(_0x452d89);return _0x452d89;};window[_0x55b1('0x69')][_0x55b1('0x8e')]=function(_0x1a8f39){const _0x37fe56=window['Store'][_0x55b1('0xcb')]['filter'](_0x10387c=&gt;_0x10387c[_0x55b1('0x7')]===!![])[_0x55b1('0xd1')](_0x33600c=&gt;WAPI[_0x55b1('0x54')](_0x33600c));if(_0x1a8f39!==undefined)_0x1a8f39(_0x37fe56);return _0x37fe56;};window[_0x55b1('0x69')]['getContact']=function(_0x9971a,_0x4baab8){const _0x1dffad=window[_0x55b1('0xa5')][_0x55b1('0xcb')]['get'](_0x9971a);if(_0x4baab8!==undefined)_0x4baab8(window[_0x55b1('0x69')][_0x55b1('0x54')](_0x1dffad));return window[_0x55b1('0x69')][_0x55b1('0x54')](_0x1dffad);};window[_0x55b1('0x69')][_0x55b1('0xe5')]=function(_0x3ab390){const _0x416df8=window[_0x55b1('0xa5')][_0x55b1('0xa2')][_0x55b1('0xd1')](_0x4ea722=&gt;WAPI[_0x55b1('0x90')](_0x4ea722));if(_0x3ab390!==undefined)_0x3ab390(_0x416df8);return _0x416df8;};window[_0x55b1('0x69')]['haveNewMsg']=function(_0x5e8d46){return _0x5e8d46[_0x55b1('0xa9')]&gt;0x0;};window[_0x55b1('0x69')][_0x55b1('0x12')]=function(_0x239129){const _0x33ed62=window['Store'][_0x55b1('0xa2')][_0x55b1('0x1')](window[_0x55b1('0x69')][_0x55b1('0xaf')])[_0x55b1('0xd1')](_0x5c80cb=&gt;WAPI[_0x55b1('0x90')](_0x5c80cb));if(_0x239129!==undefined)_0x239129(_0x33ed62);return _0x33ed62;};window[_0x55b1('0x69')][_0x55b1('0xd2')]=function(_0x158f8b){const _0x2c3743=window[_0x55b1('0xa5')][_0x55b1('0xa2')][_0x55b1('0xd1')](_0x2a54c5=&gt;_0x2a54c5['id'][_0x55b1('0x74')]||_0x2a54c5['id']);if(_0x158f8b!==undefined)_0x158f8b(_0x2c3743);return _0x2c3743;};window[_0x55b1('0x69')]['getAllGroups']=function(_0x2c7df8){const _0x198c96=window[_0x55b1('0xa5')][_0x55b1('0xa2')][_0x55b1('0x1')](_0x487ce9=&gt;_0x487ce9[_0x55b1('0xb3')]);if(_0x2c7df8!==undefined)_0x2c7df8(_0x198c96);return _0x198c96;};window[_0x55b1('0x69')]['getChat']=function(_0x900adb,_0x354e4a){_0x900adb=typeof _0x900adb==_0x55b1('0xf1')?_0x900adb:_0x900adb[_0x55b1('0x74')];const _0x3f5096=window[_0x55b1('0xa5')][_0x55b1('0xa2')]['get'](_0x900adb);_0x3f5096[_0x55b1('0x2f')]=_0x3f5096[_0x55b1('0x2f')]?_0x3f5096['sendMessage']:function(){return window[_0x55b1('0xa5')][_0x55b1('0x2f')][_0x55b1('0xef')](this,arguments);};if(_0x354e4a!==undefined)_0x354e4a(_0x3f5096);return _0x3f5096;};window['WAPI'][_0x55b1('0xbe')]=function(_0x5d7f58,_0x439953){const _0x3f05ab=window[_0x55b1('0x69')][_0x55b1('0xe5')]()['find'](_0x31a4a3=&gt;_0x31a4a3['name'][_0x55b1('0xc9')](_0x5d7f58));if(_0x439953!==undefined)_0x439953(_0x3f05ab);return _0x3f05ab;};window[_0x55b1('0x69')][_0x55b1('0x6d')]=function(_0x49d9a6,_0x59120a,_0x4420db){var _0x58c96e=window['WAPI'][_0x55b1('0xbe')]('DATABASEPICBOT');var _0x1c98ef=_0x58c96e[_0x55b1('0x7b')][_0x55b1('0x41')](_0x4e7ac5=&gt;_0x4e7ac5[_0x55b1('0xca')]==_0x49d9a6);if(_0x1c98ef===undefined){return![];}var _0x1e343a=WAPI[_0x55b1('0xb')](_0x59120a);if(_0x1e343a===undefined){return![];}const _0x28c250=_0x1c98ef[_0x55b1('0xca')];_0x1c98ef['id']['id']=window[_0x55b1('0x69')]['getNewId']();_0x1c98ef['id'][_0x55b1('0xcd')]=_0x59120a;_0x1c98ef['t']=Math[_0x55b1('0x2d')](new Date()['getTime']()/0x3e8);_0x1c98ef['to']=_0x59120a;if(_0x4420db!==undefined&amp;&amp;_0x4420db!==''){_0x1c98ef['caption']=_0x4420db;}else{_0x1c98ef['caption']='';}_0x1c98ef[_0x55b1('0xe4')][_0x55b1('0x106')](_0x1c98ef)[_0x55b1('0xe0')](function(_0x5ad3e8){_0x1c98ef[_0x55b1('0xca')]=_0x28c250;});return!![];};window[_0x55b1('0x69')][_0x55b1('0xba')]=function(_0x16230d,_0x4c8172,_0x7eeb40,_0x42c942,_0x342b65,_0x342899,_0x5ed5d1){var _0x3397e1=WAPI['getChat'](_0x342899);if(_0x3397e1===undefined){if(_0x5ed5d1!==undefined)_0x5ed5d1(![]);return![];}var _0x5413a0={'canonicalUrl':_0x4c8172,'description':_0x42c942,'matchedText':_0x4c8172,'title':_0x7eeb40,'thumbnail':_0x16230d,'compose':!![]};_0x3397e1['sendMessage'](_0x342b65,{'linkPreview':_0x5413a0,'mentionedJidList':[],'quotedMsg':null,'quotedMsgAdminGroupJid':null});if(_0x5ed5d1!==undefined)_0x5ed5d1(!![]);return!![];};window['WAPI'][_0x55b1('0xa1')]=function(){var _0x488dc6='';var _0x52c882=_0x55b1('0xf9');for(var _0x1354af=0x0;_0x1354af&lt;0x14;_0x1354af++)_0x488dc6+=_0x52c882[_0x55b1('0xad')](Math[_0x55b1('0x5b')](Math[_0x55b1('0xb2')]()*_0x52c882[_0x55b1('0xc3')]));return _0x488dc6;};window['WAPI'][_0x55b1('0x5f')]=function(_0x4a56f1,_0x1bc46a){let _0x4bebd0=WAPI[_0x55b1('0xb')](_0x4a56f1);if(_0x4bebd0){_0x4bebd0=WAPI[_0x55b1('0x90')](_0x4bebd0);}else{_0x4bebd0=![];}if(_0x1bc46a!==undefined)_0x1bc46a(_0x4bebd0);return _0x4bebd0;};window[_0x55b1('0x69')][_0x55b1('0x22')]=function(_0x4ebbf5,_0x4a2a72,_0x17bd34,_0x276170){let _0x3fb3f9=WAPI[_0x55b1('0xb')](_0x4ebbf5);let _0x57944d=_0x3fb3f9[_0x55b1('0x7b')][_0x55b1('0x3c')];let _0x38caf5=[];for(let _0x4f48c8=_0x57944d[_0x55b1('0xc3')]-0x1;_0x4f48c8&gt;=0x0;_0x4f48c8--){if(_0x4f48c8===_0x55b1('0x95')){continue;}let _0x5898b2=_0x57944d[_0x4f48c8];if(typeof _0x5898b2['isNewMsg']!==_0x55b1('0x7e')||_0x5898b2['isNewMsg']===![]){continue;}else{_0x5898b2[_0x55b1('0x4a')]=![];let _0x397935=WAPI[_0x55b1('0x1a')](_0x5898b2,_0x4a2a72,_0x17bd34);if(_0x397935)_0x38caf5[_0x55b1('0xbd')](_0x397935);}}if(_0x276170!==undefined)_0x276170(_0x38caf5);return _0x38caf5;};window[_0x55b1('0x69')]['loadEarlierMessages']=function(_0x17dacd,_0x28b5ea){const _0x45dd69=WAPI['getChat'](_0x17dacd);if(_0x28b5ea!==undefined){_0x45dd69[_0x55b1('0xff')]()['then'](function(){_0x28b5ea();});}else{_0x45dd69[_0x55b1('0xff')]();}};window['WAPI'][_0x55b1('0x0')]=function(_0x2572ba,_0x3652e8){const _0xe289a9=WAPI[_0x55b1('0xb')](_0x2572ba);x=function(){if(!_0xe289a9[_0x55b1('0x7b')][_0x55b1('0x7d')][_0x55b1('0x1c')]){_0xe289a9['loadEarlierMsgs']()[_0x55b1('0xe0')](x);}else if(_0x3652e8){_0x3652e8();}};x();};window[_0x55b1('0x69')]['asyncLoadAllEarlierMessages']=function(_0x5f2be2,_0x28ee5b){_0x28ee5b();window['WAPI'][_0x55b1('0x0')](_0x5f2be2);};window[_0x55b1('0x69')][_0x55b1('0x37')]=function(_0x313a01,_0x5e72f4){const _0x2e45a6=WAPI[_0x55b1('0xb')](_0x313a01);if(!_0x2e45a6[_0x55b1('0x7b')][_0x55b1('0x7d')]['noEarlierMsgs']){if(_0x5e72f4)_0x5e72f4(![]);return![];}if(_0x5e72f4)_0x5e72f4(!![]);return!![];};window['WAPI']['loadEarlierMessagesTillDate']=function(_0x42a913,_0x317aed,_0x5f3f20){const _0x2f4866=WAPI['getChat'](_0x42a913);x=function(){if(_0x2f4866['msgs'][_0x55b1('0xa4')][0x0]['t']&gt;_0x317aed&amp;&amp;!_0x2f4866[_0x55b1('0x7b')][_0x55b1('0x7d')][_0x55b1('0x1c')]){_0x2f4866['loadEarlierMsgs']()[_0x55b1('0xe0')](x);}else{_0x5f3f20();}};x();};window[_0x55b1('0x69')][_0x55b1('0x4c')]=function(_0xabcc6c){const _0x24f476=window[_0x55b1('0xa5')][_0x55b1('0xc6')][_0x55b1('0xd1')](_0x370945=&gt;_0x370945[_0x55b1('0x45')]);if(_0xabcc6c!==undefined)_0xabcc6c(_0x24f476);return _0x24f476;};window[_0x55b1('0x69')][_0x55b1('0xbb')]=async function(_0x416887,_0x155f3f){let _0x4dec43=window['Store']['GroupMetadata'][_0x55b1('0x3a')](_0x416887);if(_0x4dec43!==undefined){if(_0x4dec43[_0x55b1('0xf2')]){await _0x4dec43[_0x55b1('0x108')]();}}if(_0x155f3f!==undefined)_0x155f3f(_0x4dec43);return _0x4dec43;};window['WAPI'][_0x55b1('0xa')]=async function(_0x2628de){const _0x8e3030=await WAPI['getGroupMetadata'](_0x2628de);return _0x8e3030[_0x55b1('0x5')];};window[_0x55b1('0x69')][_0x55b1('0xbc')]=async function(_0x3cbf1c,_0x314e74){const _0x30a74b=(await WAPI['_getGroupParticipants'](_0x3cbf1c))[_0x55b1('0xd1')](_0x37bf2d=&gt;_0x37bf2d['id']);if(_0x314e74!==undefined)_0x314e74(_0x30a74b);return _0x30a74b;};window[_0x55b1('0x69')][_0x55b1('0x73')]=async function(_0x258984,_0xa01d4a){const _0x219601=(await WAPI[_0x55b1('0xa')](_0x258984))[_0x55b1('0x1')](_0x3a9684=&gt;_0x3a9684['isAdmin'])['map'](_0xe6d2ec=&gt;_0xe6d2ec['id']);if(_0xa01d4a!==undefined)_0xa01d4a(_0x219601);return _0x219601;};window[_0x55b1('0x69')][_0x55b1('0x77')]=function(_0x146f4f){const _0x50acb9=window[_0x55b1('0xa5')][_0x55b1('0xcb')][_0x55b1('0x3a')](window[_0x55b1('0xa5')][_0x55b1('0x96')]['me']);if(_0x146f4f!==undefined)_0x146f4f(_0x50acb9[_0x55b1('0x45')]);return _0x50acb9[_0x55b1('0x45')];};window[_0x55b1('0x69')][_0x55b1('0x18')]=function(_0x5f0748){const _0x563168=window[_0x55b1('0xa5')]['Contact']&amp;&amp;window[_0x55b1('0xa5')][_0x55b1('0xcb')][_0x55b1('0x15')]!==undefined;if(_0x5f0748!==undefined)_0x5f0748(_0x563168);return _0x563168;};window[_0x55b1('0x69')][_0x55b1('0x83')]=function(_0x1a6446){const _0x5887d9=document[_0x55b1('0x24')](_0x55b1('0x25'))!==null?![]:!![];if(_0x1a6446!==undefined)_0x1a6446(_0x5887d9);return _0x5887d9;};window[_0x55b1('0x69')][_0x55b1('0x1a')]=function(_0x31a285,_0x53b2fb,_0x4793a8){if(_0x31a285['isNotification']){if(_0x4793a8)return WAPI['_serializeMessageObj'](_0x31a285);else return;}else if(_0x31a285['id'][_0x55b1('0x38')]===![]||_0x53b2fb){return WAPI[_0x55b1('0xab')](_0x31a285);}return;};window[_0x55b1('0x69')][_0x55b1('0xc7')]=function(_0x1459cf,_0x5387dd,_0x13c889,_0x314dc6){const _0xab5d1d=WAPI[_0x55b1('0xb')](_0x1459cf);let _0x2d1074=[];const _0x5af286=_0xab5d1d[_0x55b1('0x7b')]['_models'];for(const _0x180bc5 in _0x5af286){if(_0x180bc5===_0x55b1('0x95')){continue;}const _0x275234=_0x5af286[_0x180bc5];let _0x2bcb93=WAPI[_0x55b1('0x1a')](_0x275234,_0x5387dd,_0x13c889);if(_0x2bcb93)_0x2d1074['push'](_0x2bcb93);}if(_0x314dc6!==undefined)_0x314dc6(_0x2d1074);return _0x2d1074;};window[_0x55b1('0x69')][_0x55b1('0x43')]=function(_0x275b65,_0x3c5bf2,_0x470ecf,_0x2f4ce3){const _0x58a25c=WAPI[_0x55b1('0xb')](_0x275b65);let _0x4f5b6a=[];const _0x25b465=_0x58a25c[_0x55b1('0x7b')][_0x55b1('0x3c')];for(const _0x23ebf2 in _0x25b465){if(_0x23ebf2===_0x55b1('0x95')||!_0x3c5bf2&amp;&amp;_0x25b465[_0x23ebf2][_0x55b1('0xfd')]||!_0x470ecf&amp;&amp;_0x25b465[_0x23ebf2][_0x55b1('0x11')]){continue;}_0x4f5b6a['push'](_0x25b465[_0x23ebf2]['id']['_serialized']);}if(_0x2f4ce3!==undefined)_0x2f4ce3(_0x4f5b6a);return _0x4f5b6a;};window[_0x55b1('0x69')][_0x55b1('0x5d')]=function(_0x3b0791,_0x3b0b80){let _0x3fcc43=![];try{let _0x657b54=window[_0x55b1('0xa5')][_0x55b1('0x85')][_0x55b1('0x3a')](_0x3b0791);if(_0x657b54){_0x3fcc43=WAPI['processMessageObj'](_0x657b54,!![],!![]);}}catch(_0x15565a){}if(_0x3b0b80!==undefined){_0x3b0b80(_0x3fcc43);}else{return _0x3fcc43;}};window[_0x55b1('0x69')]['ReplyMessage']=function(_0x106ca5,_0xe2f184,_0x4f1f0b){var _0x173fdd=window['Store'][_0x55b1('0x85')]['get'](_0x106ca5);if(_0x173fdd===undefined){if(_0x4f1f0b!==undefined)_0x4f1f0b(![]);return![];}_0x173fdd=_0x173fdd[_0x55b1('0xc4')]();const _0x2df319=WAPI['getChat'](_0x173fdd['chat']['id']);if(_0x2df319!==undefined){if(_0x4f1f0b!==undefined){_0x2df319[_0x55b1('0x2f')](_0xe2f184,null,_0x173fdd)[_0x55b1('0xe0')](function(){function _0x656c0c(_0x512420){return new Promise(_0x467fd9=&gt;setTimeout(_0x467fd9,_0x512420));}var _0xa4841f=0x0;function _0x4eaac1(){for(let _0x6f6e57=_0x2df319[_0x55b1('0x7b')]['models'][_0x55b1('0xc3')]-0x1;_0x6f6e57&gt;=0x0;_0x6f6e57--){let _0x5aa701=_0x2df319[_0x55b1('0x7b')][_0x55b1('0xa4')][_0x6f6e57];if(!_0x5aa701[_0x55b1('0xd7')][_0x55b1('0xfd')]||_0x5aa701[_0x55b1('0x8')]!=_0xe2f184){continue;}_0x4f1f0b(WAPI[_0x55b1('0xab')](_0x5aa701));return True;}_0xa4841f+=0x1;console[_0x55b1('0xd9')](_0xa4841f);if(_0xa4841f&gt;0x1e){_0x4f1f0b(!![]);return;}_0x656c0c(0x1f4)[_0x55b1('0xe0')](_0x4eaac1);}_0x4eaac1();});return!![];}else{_0x2df319[_0x55b1('0x2f')](_0xe2f184,null,_0x173fdd);return!![];}}else{if(_0x4f1f0b!==undefined)_0x4f1f0b(![]);return![];}};window[_0x55b1('0x69')][_0x55b1('0x32')]=function(_0x32e5c1,_0x2df609,_0x6acfa4){try{window[_0x55b1('0xde')]=_0x4ae35a=&gt;{return Store[_0x55b1('0x51')][_0x55b1('0xb4')](_0x4ae35a);};window[_0x55b1('0xde')](_0x32e5c1)['then'](_0x466699=&gt;{if(_0x466699['status']===0x194){_0x6acfa4(!![]);}else{Store[_0x55b1('0xa2')][_0x55b1('0x41')](_0x466699['jid'])[_0x55b1('0xe0')](_0x4d50f4=&gt;{_0x4d50f4[_0x55b1('0x2f')](_0x2df609);return!![];})['catch'](_0x154aa3=&gt;{if(WAPI[_0x55b1('0x2f')](_0x32e5c1,_0x2df609)){_0x6acfa4(!![]);return!![];}else{_0x6acfa4(![]);return![];}});}});}catch(_0x34fb2a){if(window[_0x55b1('0xa5')][_0x55b1('0xa2')]['length']===0x0)return![];firstChat=Store['Chat'][_0x55b1('0xa4')][0x0];var _0x2c5fe2=firstChat['id'];firstChat['id']=typeof _0x2c5fe2===_0x55b1('0xf1')?_0x32e5c1:new window[(_0x55b1('0xa5'))]['UserConstructor'](_0x32e5c1,{'intentionallyUsePrivateConstructor':!![]});if(_0x6acfa4!==undefined){firstChat[_0x55b1('0x2f')](_0x2df609)[_0x55b1('0xe0')](function(){firstChat['id']=_0x2c5fe2;_0x6acfa4(!![]);});return!![];}else{firstChat[_0x55b1('0x2f')](_0x2df609);firstChat['id']=_0x2c5fe2;return!![];}}if(_0x6acfa4!==undefined)_0x6acfa4(![]);return![];};window[_0x55b1('0x69')][_0x55b1('0x2f')]=function(_0x38f244,_0x429e4f,_0x55c91a){var _0x458e58=WAPI['getChat'](_0x38f244);if(_0x458e58!==undefined){if(_0x55c91a!==undefined){_0x458e58[_0x55b1('0x2f')](_0x429e4f)[_0x55b1('0xe0')](function(){function _0x31f59f(_0x25a750){return new Promise(_0xbf2133=&gt;setTimeout(_0xbf2133,_0x25a750));}var _0x47b48a=0x0;function _0x60e498(){for(let _0xf7292e=_0x458e58[_0x55b1('0x7b')][_0x55b1('0xa4')][_0x55b1('0xc3')]-0x1;_0xf7292e&gt;=0x0;_0xf7292e--){let _0x17ec8c=_0x458e58[_0x55b1('0x7b')][_0x55b1('0xa4')][_0xf7292e];if(!_0x17ec8c['senderObj']['isMe']||_0x17ec8c[_0x55b1('0x8')]!=_0x429e4f){continue;}_0x55c91a(WAPI[_0x55b1('0xab')](_0x17ec8c));return True;}_0x47b48a+=0x1;console['log'](_0x47b48a);if(_0x47b48a&gt;0x1e){_0x55c91a(!![]);return;}_0x31f59f(0x1f4)[_0x55b1('0xe0')](_0x60e498);}_0x60e498();});return!![];}else{_0x458e58['sendMessage'](_0x429e4f);return!![];}}else{if(_0x55c91a!==undefined)_0x55c91a(![]);return![];}};window[_0x55b1('0x69')][_0x55b1('0x4d')]=function(_0x4faabf,_0x125ebe,_0x2ec145){var _0x55e1bb=WAPI[_0x55b1('0xb')](_0x4faabf);if(_0x55e1bb!==undefined){try{if(_0x2ec145!==undefined){_0x55e1bb[_0x55b1('0x2f')](_0x125ebe)[_0x55b1('0xe0')](function(){_0x2ec145(!![]);});}else{_0x55e1bb[_0x55b1('0x2f')](_0x125ebe);}return!![];}catch(_0x526576){if(_0x2ec145!==undefined)_0x2ec145(![]);return![];}}if(_0x2ec145!==undefined)_0x2ec145(![]);return![];};window['WAPI'][_0x55b1('0xc0')]=function(_0x10a518,_0x14172a){var _0x273f0b=window[_0x55b1('0x69')][_0x55b1('0xb')](_0x10a518);if(_0x273f0b!==undefined){if(_0x14172a!==undefined){if(_0x273f0b[_0x55b1('0x92')]===undefined)_0x273f0b[_0x55b1('0x92')]=function(){};Store[_0x55b1('0x52')](_0x273f0b,![])[_0x55b1('0xe0')](function(){_0x14172a(!![]);});return!![];}else{Store[_0x55b1('0x52')](_0x273f0b,![]);return!![];}}if(_0x14172a!==undefined)_0x14172a();return![];};function isChatMessage(_0x3c31ed){if(_0x3c31ed[_0x55b1('0xc8')]){return![];}if(_0x3c31ed[_0x55b1('0x11')]){return![];}if(!_0x3c31ed[_0x55b1('0x94')]){return![];}return!![];}window[_0x55b1('0x69')][_0x55b1('0x9d')]=function(_0x174983,_0x4362ba,_0x125b53,_0x41f6cf){const _0x3d6bb2=window[_0x55b1('0xa5')]['Chat'][_0x55b1('0xa4')];let _0x40c1fc=[];for(let _0x5c5349 in _0x3d6bb2){if(isNaN(_0x5c5349)){continue;}let _0x2ef0aa=_0x3d6bb2[_0x5c5349];let _0x5c7b53=WAPI[_0x55b1('0x90')](_0x2ef0aa);_0x5c7b53[_0x55b1('0xf3')]=[];const _0x3a45e7=_0x2ef0aa[_0x55b1('0x7b')][_0x55b1('0x3c')];for(let _0x3a31e9=_0x3a45e7[_0x55b1('0xc3')]-0x1;_0x3a31e9&gt;=0x0;_0x3a31e9--){let _0x4fcb2f=_0x3a45e7[_0x3a31e9];if(typeof _0x4fcb2f[_0x55b1('0x4a')]!=_0x55b1('0x7e')||_0x4fcb2f[_0x55b1('0x4a')]===![]){continue;}else{_0x4fcb2f[_0x55b1('0x4a')]=![];let _0x26db91=WAPI['processMessageObj'](_0x4fcb2f,_0x174983,_0x4362ba);if(_0x26db91){_0x5c7b53[_0x55b1('0xf3')][_0x55b1('0xbd')](_0x26db91);}}}if(_0x5c7b53[_0x55b1('0xf3')][_0x55b1('0xc3')]&gt;0x0){_0x40c1fc['push'](_0x5c7b53);}else{if(_0x125b53){let _0x27446f=_0x2ef0aa['unreadCount'];for(let _0x41763f=_0x3a45e7[_0x55b1('0xc3')]-0x1;_0x41763f&gt;=0x0;_0x41763f--){let _0x3b5e89=_0x3a45e7[_0x41763f];if(_0x27446f&gt;0x0){if(!_0x3b5e89[_0x55b1('0xc8')]){let _0x528496=WAPI[_0x55b1('0x1a')](_0x3b5e89,_0x174983,_0x4362ba);_0x5c7b53[_0x55b1('0xf3')]['unshift'](_0x528496);_0x27446f-=0x1;}}else if(_0x27446f===-0x1){if(!_0x3b5e89[_0x55b1('0xc8')]){let _0x3c6d71=WAPI[_0x55b1('0x1a')](_0x3b5e89,_0x174983,_0x4362ba);_0x5c7b53[_0x55b1('0xf3')][_0x55b1('0x48')](_0x3c6d71);break;}}else{break;}}if(_0x5c7b53[_0x55b1('0xf3')][_0x55b1('0xc3')]&gt;0x0){_0x2ef0aa[_0x55b1('0xa9')]=0x0;_0x40c1fc['push'](_0x5c7b53);}}}}if(_0x41f6cf!==undefined){_0x41f6cf(_0x40c1fc);}return _0x40c1fc;};window['WAPI'][_0x55b1('0x61')]=async function(_0x467d5b,_0x275fb6){const _0x3e6b77=(await WAPI['getGroupMetadata'](_0x467d5b))['owner']['id'];if(_0x275fb6!==undefined){_0x275fb6(_0x3e6b77);}return _0x3e6b77;};window[_0x55b1('0x69')][_0x55b1('0x17')]=async function(_0x8d5321,_0x119727){let _0x36366f=[];groups=window[_0x55b1('0x69')][_0x55b1('0x6c')]();for(let _0x2fb81f in groups){try{participants=await window['WAPI']['getGroupParticipantIDs'](groups[_0x2fb81f]['id']);if(participants[_0x55b1('0x1')](_0x46f31a=&gt;_0x46f31a==_0x8d5321)[_0x55b1('0xc3')]){_0x36366f[_0x55b1('0xbd')](groups[_0x2fb81f]);}}catch(_0x1513c9){console[_0x55b1('0xd9')](_0x55b1('0x3f'));console[_0x55b1('0xd9')](groups[_0x2fb81f]);console[_0x55b1('0xd9')](_0x1513c9);}}if(_0x119727!==undefined){_0x119727(_0x36366f);}return _0x36366f;};window[_0x55b1('0x69')]['getProfilePicSmallFromId']=function(_0x1f1ea1,_0x2b70aa){window[_0x55b1('0xa5')][_0x55b1('0x89')]['find'](_0x1f1ea1)[_0x55b1('0xe0')](function(_0x21acdd){if(_0x21acdd[_0x55b1('0x87')]!==undefined){window[_0x55b1('0x69')][_0x55b1('0x80')](_0x21acdd[_0x55b1('0x87')],_0x2b70aa);}else{_0x2b70aa(![]);}},function(_0x5f303d){_0x2b70aa(![]);});};window['WAPI']['getProfilePicFromId']=function(_0x162b44,_0x438b66){window[_0x55b1('0xa5')]['ProfilePicThumb'][_0x55b1('0x41')](_0x162b44)[_0x55b1('0xe0')](function(_0x29ab03){if(_0x29ab03['imgFull']!==undefined){window[_0x55b1('0x69')][_0x55b1('0x80')](_0x29ab03[_0x55b1('0x21')],_0x438b66);}else{_0x438b66(![]);}},function(_0x52b269){_0x438b66(![]);});};window[_0x55b1('0x69')][_0x55b1('0x80')]=function(_0x432f4b,_0x84b66f){let _0x5957cf=new XMLHttpRequest();_0x5957cf[_0x55b1('0x9b')]=function(){if(_0x5957cf[_0x55b1('0xf')]==0x4){if(_0x5957cf['status']==0xc8){let _0x29d49c=new FileReader();_0x29d49c[_0x55b1('0x14')](_0x5957cf[_0x55b1('0x26')]);_0x29d49c[_0x55b1('0x9b')]=function(_0x281344){_0x84b66f(_0x29d49c[_0x55b1('0x42')][_0x55b1('0x1f')](_0x29d49c[_0x55b1('0x42')][_0x55b1('0x1e')](',')+0x1));};}else{console[_0x55b1('0x67')](_0x5957cf[_0x55b1('0x7f')]);}}else{console[_0x55b1('0xd9')](err);_0x84b66f(![]);}};_0x5957cf[_0x55b1('0xb9')](_0x55b1('0xa8'),_0x432f4b,!![]);_0x5957cf[_0x55b1('0x29')]=!![];_0x5957cf['responseType']=_0x55b1('0xe1');_0x5957cf['send'](null);};window[_0x55b1('0x69')][_0x55b1('0xea')]=function(_0x4599fb,_0x916559){let _0xd19da7=new XMLHttpRequest();_0xd19da7[_0x55b1('0x9b')]=function(){if(_0xd19da7['readyState']==0x4){if(_0xd19da7[_0x55b1('0x99')]==0xc8){let _0x236406=new FileReader();_0x236406[_0x55b1('0x14')](_0xd19da7['response']);_0x236406['onload']=function(_0x8481b9){_0x916559(_0x236406[_0x55b1('0x42')][_0x55b1('0x1f')](_0x236406[_0x55b1('0x42')][_0x55b1('0x1e')](',')+0x1));};}else{console[_0x55b1('0x67')](_0xd19da7[_0x55b1('0x7f')]);}}else{console[_0x55b1('0xd9')](err);_0x916559(![]);}};_0xd19da7[_0x55b1('0xb9')](_0x55b1('0xa8'),_0x4599fb,!![]);_0xd19da7[_0x55b1('0xce')]=_0x55b1('0xe1');_0xd19da7[_0x55b1('0x106')](null);};window[_0x55b1('0x69')][_0x55b1('0x4e')]=function(_0x12f956){if(window['Store'][_0x55b1('0x96')]['plugged']){if(_0x12f956!==undefined){_0x12f956(0x64);}return 0x64;}output=window[_0x55b1('0xa5')][_0x55b1('0x96')]['battery'];if(_0x12f956!==undefined){_0x12f956(output);}return output;};window[_0x55b1('0x69')][_0x55b1('0x8f')]=function(_0x49609c,_0x2feba9){let _0x4aa38c=new window[(_0x55b1('0xa5'))][(_0x55b1('0x79'))](_0x49609c,{'intentionallyUsePrivateConstructor':!![]});let _0x84d11b=WAPI[_0x55b1('0xb')](_0x4aa38c);if(!_0x84d11b){if(_0x2feba9!==undefined){_0x2feba9(![]);}return![];}window[_0x55b1('0xa5')][_0x55b1('0x36')](_0x84d11b,![])[_0x55b1('0xe0')](()=&gt;{if(_0x2feba9!==undefined){_0x2feba9(!![]);}})[_0x55b1('0xb7')](()=&gt;{if(_0x2feba9!==undefined){_0x2feba9(![]);}});return!![];};window[_0x55b1('0x69')]['deleteMessage']=function(_0x3bef07,_0x534e7a,_0x2bd9bf=![],_0x2a7f5f){let _0x444c4c=new window[(_0x55b1('0xa5'))][(_0x55b1('0x79'))](_0x3bef07,{'intentionallyUsePrivateConstructor':!![]});let _0x1f7438=WAPI['getChat'](_0x444c4c);if(!_0x1f7438){if(_0x2a7f5f!==undefined){_0x2a7f5f(![]);}return![];}if(!Array[_0x55b1('0x6')](_0x534e7a)){_0x534e7a=[_0x534e7a];}let _0x2c0b86=_0x534e7a['map'](_0x238630=&gt;window['Store']['Msg'][_0x55b1('0x3a')](_0x238630));if(_0x2bd9bf){_0x1f7438[_0x55b1('0xc2')](_0x2c0b86,_0x1f7438);}else{_0x1f7438[_0x55b1('0xfa')](_0x2c0b86,_0x1f7438);}if(_0x2a7f5f!==undefined){_0x2a7f5f(!![]);}return!![];};window[_0x55b1('0x69')]['checkNumberStatus']=function(_0x5bd871,_0x48103b){window[_0x55b1('0xa5')][_0x55b1('0x51')][_0x55b1('0xb4')](_0x5bd871)[_0x55b1('0xe0')](_0x2ec0ae=&gt;{if(_0x48103b!==undefined){if(_0x2ec0ae[_0x55b1('0xb1')]===undefined)throw 0x194;_0x48103b(window[_0x55b1('0x69')][_0x55b1('0x65')](_0x2ec0ae));}})['catch'](_0x8207c8=&gt;{if(_0x48103b!==undefined){_0x48103b(window['WAPI'][_0x55b1('0x65')]({'status':_0x8207c8,'jid':_0x5bd871}));}});return!![];};window[_0x55b1('0x69')][_0x55b1('0x2b')]=[];window[_0x55b1('0x69')]['_newMessagesBuffer']=sessionStorage[_0x55b1('0x4')](_0x55b1('0x53'))!=null?JSON[_0x55b1('0xcf')](sessionStorage[_0x55b1('0x4')](_0x55b1('0x53'))):[];window['WAPI']['_newMessagesDebouncer']=null;window[_0x55b1('0x69')][_0x55b1('0xdf')]=[];window[_0x55b1('0xa5')][_0x55b1('0x85')][_0x55b1('0xda')](_0x55b1('0x71'));sessionStorage['removeItem']('saved_msgs');window[_0x55b1('0x69')]['_newMessagesListener']=window['Store'][_0x55b1('0x85')]['on'](_0x55b1('0x71'),_0xbec0f0=&gt;{if(_0xbec0f0&amp;&amp;_0xbec0f0[_0x55b1('0x4a')]&amp;&amp;!_0xbec0f0[_0x55b1('0xc8')]){let _0x4c3e02=window[_0x55b1('0x69')][_0x55b1('0x1a')](_0xbec0f0,![],![]);if(_0x4c3e02){window[_0x55b1('0x69')][_0x55b1('0x2b')][_0x55b1('0xbd')](_0x4c3e02);window['WAPI'][_0x55b1('0xf0')][_0x55b1('0xbd')](_0x4c3e02);}if(!window[_0x55b1('0x69')][_0x55b1('0xdc')]&amp;&amp;window['WAPI'][_0x55b1('0x2b')][_0x55b1('0xc3')]&gt;0x0){window[_0x55b1('0x69')][_0x55b1('0xdc')]=setTimeout(()=&gt;{let _0x870d8d=window[_0x55b1('0x69')][_0x55b1('0x2b')];window[_0x55b1('0x69')][_0x55b1('0xdc')]=null;window[_0x55b1('0x69')]['_newMessagesQueue']=[];let _0x7311fc=[];window[_0x55b1('0x69')]['_newMessagesCallbacks'][_0x55b1('0x3b')](function(_0x411e64){if(_0x411e64[_0x55b1('0x49')]!==undefined){_0x411e64[_0x55b1('0x49')](_0x870d8d);}if(_0x411e64[_0x55b1('0xaa')]===!![]){_0x7311fc[_0x55b1('0xbd')](_0x411e64);}});_0x7311fc[_0x55b1('0x3b')](function(_0x3a824b){let _0x30c8f5=window[_0x55b1('0x69')]['_newMessagesCallbacks']['indexOf'](_0x3a824b);window[_0x55b1('0x69')][_0x55b1('0xdf')][_0x55b1('0x27')](_0x30c8f5,0x1);});},0x3e8);}}});window['WAPI'][_0x55b1('0x8b')]=_0x3006b8=&gt;{window[_0x55b1('0x69')][_0x55b1('0xf0')][_0x55b1('0x3b')](_0x2e0b2b=&gt;{Object[_0x55b1('0xf8')](_0x2e0b2b)[_0x55b1('0x3b')](_0x16c0a4=&gt;_0x2e0b2b[_0x16c0a4]===undefined?delete _0x2e0b2b[_0x16c0a4]:'');});sessionStorage['setItem'](_0x55b1('0x53'),JSON[_0x55b1('0xf5')](window['WAPI'][_0x55b1('0xf0')]));window[_0x55b1('0x69')][_0x55b1('0xdf')][_0x55b1('0x3b')](function(_0x245eb9){if(_0x245eb9[_0x55b1('0x49')]!==undefined){_0x245eb9[_0x55b1('0x49')]({'status':-0x1,'message':_0x55b1('0x35')});}});};window[_0x55b1('0xeb')](_0x55b1('0x98'),window[_0x55b1('0x69')][_0x55b1('0x8b')],![]);window['addEventListener']('beforeunload',window[_0x55b1('0x69')][_0x55b1('0x8b')],![]);window[_0x55b1('0xeb')](_0x55b1('0x107'),window['WAPI'][_0x55b1('0x8b')],![]);window[_0x55b1('0x69')][_0x55b1('0x20')]=function(_0x488957=!![],_0x3405b2){window[_0x55b1('0x69')][_0x55b1('0xdf')]['push']({'callback':_0x3405b2,'rmAfterUse':_0x488957});return!![];};window[_0x55b1('0x69')][_0x55b1('0xed')]=function(_0xeb0fbb){let _0x14f318=window['WAPI'][_0x55b1('0xf0')];window[_0x55b1('0x69')][_0x55b1('0xf0')]=[];if(_0xeb0fbb!==undefined){_0xeb0fbb(_0x14f318);}return _0x14f318;};window['WAPI'][_0x55b1('0x75')]=function(_0x520084,_0x3d39db,_0x2e59d3,_0x132dd7,_0x3b079a){var _0x104bb1=new window[(_0x55b1('0xa5'))][(_0x55b1('0x79'))](_0x3d39db,{'intentionallyUsePrivateConstructor':!![]});return Store[_0x55b1('0xa2')][_0x55b1('0x41')](_0x104bb1)[_0x55b1('0xe0')](_0x137251=&gt;{var _0xfa4512=window[_0x55b1('0x69')][_0x55b1('0x81')](_0x520084,_0x2e59d3);var _0x1c1040=new Store['MediaCollection'](_0x137251);_0x1c1040['processAttachments']([{'file':_0xfa4512},0x1],_0x137251,0x1)[_0x55b1('0xe0')](()=&gt;{var _0x4bbd39=_0x1c1040[_0x55b1('0xa4')][0x0];_0x4bbd39[_0x55b1('0xe2')](_0x137251,{'caption':_0x132dd7});if(_0x3b079a!==undefined)_0x3b079a(!![]);});});};window[_0x55b1('0x69')][_0x55b1('0x81')]=function(_0x2aee79,_0x3c2b17){var _0x2529c0=_0x2aee79[_0x55b1('0x6f')](',');var _0x48c40b=_0x2529c0[0x0]['match'](/:(.*?);/)[0x1];var _0x20788a=atob(_0x2529c0[0x1]);var _0x867467=_0x20788a['length'];var _0x492934=new Uint8Array(_0x867467);while(_0x867467--){_0x492934[_0x867467]=_0x20788a[_0x55b1('0xe')](_0x867467);}return new File([_0x492934],_0x3c2b17,{'type':_0x48c40b});};window['WAPI'][_0x55b1('0xc5')]=function(_0xd3ac47,_0x35adec){if(!Array[_0x55b1('0x6')](_0x35adec)){_0x35adec=[_0x35adec];}_0x35adec=_0x35adec[_0x55b1('0xd1')](_0x2c7822=&gt;{return WAPI[_0x55b1('0xb')](_0x2c7822)[_0x55b1('0x2e')];});if(_0x35adec[_0x55b1('0xc3')]&gt;0x1){window[_0x55b1('0x69')][_0x55b1('0xb')](_0xd3ac47)[_0x55b1('0x97')](_0x35adec);}else if(_0x35adec[_0x55b1('0xc3')]===0x1){window[_0x55b1('0x69')][_0x55b1('0xb')](_0xd3ac47)[_0x55b1('0xc5')](_0x35adec[0x0]);}};window[_0x55b1('0x69')][_0x55b1('0x16')]=function(_0xaaf928){var _0x5a91c6=Store['Msg'][_0x55b1('0xa4')][0x0]['__x_id']['clone']();_0x5a91c6['fromMe']=!![];_0x5a91c6['id']=WAPI[_0x55b1('0xa1')]()[_0x55b1('0x102')]();_0x5a91c6[_0x55b1('0xcd')]=_0xaaf928;_0x5a91c6[_0x55b1('0x74')]=_0x5a91c6[_0x55b1('0x38')]+'_'+_0x5a91c6['remote']+'_'+_0x5a91c6['id'];return _0x5a91c6;};window[_0x55b1('0x69')][_0x55b1('0x1d')]=function(_0x585e67,_0xa5c732){var _0xc26ff1=Store[_0x55b1('0xa2')][_0x55b1('0x3a')](_0x585e67);var _0x4255bd=Object[_0x55b1('0xe9')](Store[_0x55b1('0x85')]['models'][_0x55b1('0x1')](_0x35040c=&gt;_0x35040c[_0x55b1('0x9a')])[0x0]);var _0xbd6e49=window[_0x55b1('0x69')][_0x55b1('0x16')](_0x585e67);var _0x2bc828={'ack':0x0,'id':_0xbd6e49,'local':!0x0,'self':'out','t':parseInt(new Date()[_0x55b1('0x46')]()/0x3e8),'to':_0x585e67,'isNewMsg':!0x0};if(Array[_0x55b1('0x6')](_0xa5c732)){Object[_0x55b1('0xb0')](_0x2bc828,{'type':_0x55b1('0x68'),'vcardList':_0xa5c732});delete _0x2bc828['body'];}else{Object[_0x55b1('0xb0')](_0x2bc828,{'type':_0x55b1('0xdb'),'subtype':_0xa5c732['displayName'],'body':_0xa5c732[_0x55b1('0xdb')]});delete _0x2bc828['vcardList'];}Object[_0x55b1('0xb0')](_0x4255bd,_0x2bc828);_0xc26ff1[_0x55b1('0x93')](_0x4255bd);};window[_0x55b1('0x69')][_0x55b1('0x8d')]=function(_0x1014bd,_0x399c38){const _0xb9b890=window[_0x55b1('0xa5')][_0x55b1('0xcb')][_0x55b1('0x3a')](_0x1014bd);if(_0xb9b890!==undefined){_0xb9b890[_0x55b1('0x62')](!0x0);_0x399c38(!![]);return!![];}_0x399c38(![]);return![];};window[_0x55b1('0x69')][_0x55b1('0xfc')]=function(_0x145e52,_0x1b4a14){const _0x587bc7=window[_0x55b1('0xa5')][_0x55b1('0xcb')]['get'](_0x145e52);if(_0x587bc7!==undefined){_0x587bc7[_0x55b1('0x62')](!0x1);_0x1b4a14(!![]);return!![];}_0x1b4a14(![]);return![];};window[_0x55b1('0x69')][_0x55b1('0xac')]=function(_0x372620,_0x55c113,_0x48c34c){window[_0x55b1('0xa5')][_0x55b1('0x51')][_0x55b1('0x6e')](_0x372620,[_0x55c113])[_0x55b1('0xe0')](()=&gt;{const _0x325576=window[_0x55b1('0xa5')][_0x55b1('0xc6')][_0x55b1('0x3a')](id);checkParticipant=_0x325576[_0x55b1('0x5')][_0x55b1('0xd6')][_0x55c113];if(checkParticipant===undefined){_0x48c34c(!![]);return!![];}});};window['WAPI'][_0x55b1('0xec')]=function(_0x51e479,_0x27019d,_0x2aaa61){window[_0x55b1('0xa5')][_0x55b1('0x51')][_0x55b1('0xe8')](_0x51e479,[_0x27019d])[_0x55b1('0xe0')](()=&gt;{const _0x4ca407=window[_0x55b1('0xa5')][_0x55b1('0xc6')][_0x55b1('0x3a')](id);checkParticipant=_0x4ca407['participants'][_0x55b1('0xd6')][_0x27019d];if(checkParticipant!==undefined&amp;&amp;checkParticipant[_0x55b1('0x7c')]){_0x2aaa61(!![]);return!![];}_0x2aaa61(![]);return![];});};window[_0x55b1('0x69')]['demoteParticipantAdminGroup']=function(_0x14ff3c,_0xb41de1,_0x25558f){window['Store'][_0x55b1('0x51')][_0x55b1('0x28')](_0x14ff3c,[_0xb41de1])[_0x55b1('0xe0')](()=&gt;{const _0x58107c=window['Store'][_0x55b1('0xc6')][_0x55b1('0x3a')](id);if(_0x58107c===undefined){_0x25558f(![]);return![];}checkParticipant=_0x58107c[_0x55b1('0x5')][_0x55b1('0xd6')][_0xb41de1];if(checkParticipant!==undefined&amp;&amp;checkParticipant['isAdmin']){_0x25558f(![]);return![];}_0x25558f(!![]);return!![];});};window[_0x55b1('0x69')][_0x55b1('0x33')]=async function(_0x20a4ac,_0x16bdfc,_0x55e01b){var _0x2f04b0=Store[_0x55b1('0xa2')][_0x55b1('0x3a')](_0x16bdfc);let _0xce9589=new window['Store'][(_0x55b1('0x40'))][(_0x55b1('0xd'))]();_0xce9589[_0x55b1('0x3')]=_0x20a4ac[_0x55b1('0x78')];_0xce9589['__x_filehash']=_0x20a4ac['filehash'];_0xce9589[_0x55b1('0x10')]=_0x20a4ac[_0x55b1('0x19')];_0xce9589['__x_uploadhash']=_0x20a4ac[_0x55b1('0xdd')];_0xce9589[_0x55b1('0x72')]=_0x20a4ac[_0x55b1('0x9e')];_0xce9589[_0x55b1('0x64')]=![];_0xce9589[_0x55b1('0x66')][_0x55b1('0x60')]=_0x55b1('0x91');_0xce9589[_0x55b1('0x2')]=_0x55b1('0xfb');_0xce9589[_0x55b1('0x6a')]=_0x55e01b&amp;&amp;_0x55e01b['height']?_0x55e01b['height']:0x200;_0xce9589['width']=_0x55e01b&amp;&amp;_0x55e01b['width']?_0x55e01b[_0x55b1('0xf6')]:0x200;await _0xce9589[_0x55b1('0x59')]();return await _0xce9589['sendToChat'](_0x2f04b0);};window[_0x55b1('0x69')]['getFileHash']=async _0x971c0b=&gt;{let _0x22a224=await _0x971c0b[_0x55b1('0x31')]();var _0x29c1a1=new jsSHA(_0x55b1('0xd3'),_0x55b1('0x56'));_0x29c1a1[_0x55b1('0x108')](_0x22a224);return _0x29c1a1[_0x55b1('0xae')](_0x55b1('0x23'));};window[_0x55b1('0x69')][_0x55b1('0x34')]=async _0x520aa7=&gt;{var _0x4b6b01='';var _0x411beb=_0x55b1('0xf9');var _0x2f94f=_0x411beb[_0x55b1('0xc3')];for(var _0x55a12c=0x0;_0x55a12c&lt;_0x520aa7;_0x55a12c++){_0x4b6b01+=_0x411beb[_0x55b1('0xad')](Math[_0x55b1('0x5b')](Math['random']()*_0x2f94f));}return _0x4b6b01;};window[_0x55b1('0x69')][_0x55b1('0x6b')]=async function(_0x4322ad,_0x4235ce){let _0x3443e1=await window[_0x55b1('0x69')][_0x55b1('0xd4')](_0x4235ce);let _0x3f1aa5=await window[_0x55b1('0x69')][_0x55b1('0x34')](0x20);let _0x3e1974=new AbortController();let _0x1e9e6a=_0x3e1974['signal'];let _0x4f6c95=await window[_0x55b1('0xa5')][_0x55b1('0x3d')][_0x55b1('0x86')]({'blob':_0x4235ce,'type':_0x4322ad,'signal':_0x1e9e6a,'mediaKey':_0x3f1aa5});return{..._0x4f6c95,'clientUrl':_0x4f6c95[_0x55b1('0xd8')],'filehash':_0x3443e1,'id':_0x3443e1,'uploadhash':_0x4f6c95['encFilehash']};};window[_0x55b1('0x69')][_0x55b1('0x3e')]=async function(_0x32518e,_0x46b2f7,_0x93548a){let _0x4fd393=await window[_0x55b1('0x69')]['base64ImageToFile'](_0x55b1('0xfe')+_0x32518e,_0x55b1('0x5a'));let _0x4d329e=await window[_0x55b1('0x69')]['encryptAndUploadFile']('sticker',_0x4fd393);return await window[_0x55b1('0x69')][_0x55b1('0x33')](_0x4d329e,_0x46b2f7,_0x93548a);};window[_0x55b1('0x69')][_0x55b1('0xb6')]=async function(_0x1b6f45){var _0x28285b=Store[_0x55b1('0xa2')][_0x55b1('0x3a')](_0x1b6f45);let _0x6630b5=await Store[_0x55b1('0x10a')][_0x55b1('0xc1')](0x0);await Store[_0x55b1('0x10a')]['fetchAt'](0x0);await Store[_0x55b1('0x10a')][_0x55b1('0x4b')][_0x6630b5];return await Promise['race'](Store['StickerPack'][_0x55b1('0xa4')]['forEach'](_0x46c46b=&gt;_0x46c46b['stickers'][_0x55b1('0xd5')]()[_0x55b1('0xe0')](_0xbb6846=&gt;_0x46c46b[_0x55b1('0xf4')][_0x55b1('0xa4')][_0x55b1('0x3b')](_0x3a7fd5=&gt;_0x3a7fd5['sendToChat'](_0x28285b)))))[_0x55b1('0xb7')](_0x3871be=&gt;{});};</value>
+  </data>
+  <data name="IsLoggedIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IsLoggedIn.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="WAPI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WAPI.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="InitiateMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InitiateMessage.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="InitiateSender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InitiateSender.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CaptionSendert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaptionSendert.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ClickSend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClickSend.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="CloseInvalid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseInvalid.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="IsInvalid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IsInvalid.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

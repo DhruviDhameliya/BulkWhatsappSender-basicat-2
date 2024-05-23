@@ -1,0 +1,14 @@
+function closeInvalid() {
+  let divs = document.getElementsByTagName("div");
+  for (div of divs) {
+    if (div.getAttribute("data-animate-modal-popup") == "true") {
+      let subdivs = div.getElementsByTagName("div");
+      for (let subdiv of subdivs) {
+
+        subdiv.click();
+
+      }
+
+    }
+  }
+} closeInvalid()
