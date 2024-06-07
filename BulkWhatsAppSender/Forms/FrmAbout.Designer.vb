@@ -52,7 +52,7 @@ Partial Class FrmAbout
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(438, 106)
+        Me.PictureBox1.Size = New System.Drawing.Size(438, 121)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -153,7 +153,7 @@ Partial Class FrmAbout
         'ProductNameLabel
         '
         Me.ProductNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ProductNameLabel.Location = New System.Drawing.Point(13, 109)
+        Me.ProductNameLabel.Location = New System.Drawing.Point(13, 124)
         Me.ProductNameLabel.Name = "ProductNameLabel"
         Me.ProductNameLabel.Size = New System.Drawing.Size(413, 19)
         Me.ProductNameLabel.TabIndex = 16
@@ -163,7 +163,7 @@ Partial Class FrmAbout
         'CompanyNameLabel
         '
         Me.CompanyNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CompanyNameLabel.Location = New System.Drawing.Point(13, 131)
+        Me.CompanyNameLabel.Location = New System.Drawing.Point(13, 146)
         Me.CompanyNameLabel.Name = "CompanyNameLabel"
         Me.CompanyNameLabel.Size = New System.Drawing.Size(413, 19)
         Me.CompanyNameLabel.TabIndex = 17
