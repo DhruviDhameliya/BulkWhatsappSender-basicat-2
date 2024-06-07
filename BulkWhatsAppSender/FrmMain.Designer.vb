@@ -72,6 +72,10 @@ Partial Class FrmMain
         Me.TimerStatus = New System.Windows.Forms.Timer(Me.components)
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.LstMedia = New System.Windows.Forms.ListView()
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ContextMenuMediaType = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.SetCaptionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
@@ -122,6 +126,15 @@ Partial Class FrmMain
         Me.PnlNumbers = New System.Windows.Forms.Panel()
         Me.LblNumbers = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.LstNumbers = New System.Windows.Forms.ListView()
+        Me.ClnNumber = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader10 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.LblAppTitle = New System.Windows.Forms.Label()
@@ -134,6 +147,7 @@ Partial Class FrmMain
         Me.TabMessages = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.TxtLog = New System.Windows.Forms.TextBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -157,20 +171,6 @@ Partial Class FrmMain
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBoxcatalogue = New System.Windows.Forms.TextBox()
-        Me.TxtLog = New System.Windows.Forms.TextBox()
-        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.LstMedia = New System.Windows.Forms.ListView()
-        Me.ClnNumber = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader10 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.LstNumbers = New System.Windows.Forms.ListView()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.MnStrpImports.SuspendLayout()
         Me.MnStripMain.SuspendLayout()
@@ -482,6 +482,39 @@ Partial Class FrmMain
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(434, 131)
         Me.Panel7.TabIndex = 45
+        '
+        'LstMedia
+        '
+        Me.LstMedia.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.LstMedia.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5})
+        Me.LstMedia.ContextMenuStrip = Me.ContextMenuMediaType
+        Me.LstMedia.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LstMedia.FullRowSelect = True
+        Me.LstMedia.GridLines = True
+        Me.LstMedia.HideSelection = False
+        Me.LstMedia.Location = New System.Drawing.Point(1, 32)
+        Me.LstMedia.MultiSelect = False
+        Me.LstMedia.Name = "LstMedia"
+        Me.LstMedia.Size = New System.Drawing.Size(432, 98)
+        Me.LstMedia.SmallImageList = Me.ImageListMediaType
+        Me.LstMedia.TabIndex = 49
+        Me.LstMedia.UseCompatibleStateImageBehavior = False
+        Me.LstMedia.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "File Name"
+        Me.ColumnHeader3.Width = 134
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Type"
+        Me.ColumnHeader4.Width = 83
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Caption"
+        Me.ColumnHeader5.Width = 200
         '
         'ContextMenuMediaType
         '
@@ -1075,6 +1108,65 @@ Partial Class FrmMain
         Me.Panel4.Size = New System.Drawing.Size(328, 516)
         Me.Panel4.TabIndex = 34
         '
+        'LstNumbers
+        '
+        Me.LstNumbers.BackColor = System.Drawing.Color.White
+        Me.LstNumbers.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.LstNumbers.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ClnNumber, Me.ColumnHeader2, Me.ColumnHeader1, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10})
+        Me.LstNumbers.ContextMenuStrip = Me.MnStrpImports
+        Me.LstNumbers.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LstNumbers.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LstNumbers.FullRowSelect = True
+        Me.LstNumbers.GridLines = True
+        Me.LstNumbers.HideSelection = False
+        Me.LstNumbers.Location = New System.Drawing.Point(1, 40)
+        Me.LstNumbers.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LstNumbers.Name = "LstNumbers"
+        Me.LstNumbers.Size = New System.Drawing.Size(326, 475)
+        Me.LstNumbers.SmallImageList = Me.ImageList1
+        Me.LstNumbers.TabIndex = 23
+        Me.LstNumbers.UseCompatibleStateImageBehavior = False
+        Me.LstNumbers.View = System.Windows.Forms.View.Details
+        '
+        'ClnNumber
+        '
+        Me.ClnNumber.Text = "Name"
+        Me.ClnNumber.Width = 120
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Number"
+        Me.ColumnHeader2.Width = 115
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Status"
+        '
+        'ColumnHeader6
+        '
+        Me.ColumnHeader6.Text = "Var1"
+        Me.ColumnHeader6.Width = 100
+        '
+        'ColumnHeader7
+        '
+        Me.ColumnHeader7.Text = "Var2"
+        Me.ColumnHeader7.Width = 100
+        '
+        'ColumnHeader8
+        '
+        Me.ColumnHeader8.Text = "Var3"
+        Me.ColumnHeader8.Width = 100
+        '
+        'ColumnHeader9
+        '
+        Me.ColumnHeader9.Text = "Var4"
+        Me.ColumnHeader9.Width = 100
+        '
+        'ColumnHeader10
+        '
+        Me.ColumnHeader10.Text = "Var5"
+        Me.ColumnHeader10.Width = 100
+        '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(190, Byte), Integer), CType(CType(165, Byte), Integer))
@@ -1209,6 +1301,21 @@ Partial Class FrmMain
         Me.Panel6.Padding = New System.Windows.Forms.Padding(1)
         Me.Panel6.Size = New System.Drawing.Size(396, 477)
         Me.Panel6.TabIndex = 87
+        '
+        'TxtLog
+        '
+        Me.TxtLog.BackColor = System.Drawing.Color.White
+        Me.TxtLog.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TxtLog.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TxtLog.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtLog.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
+        Me.TxtLog.Location = New System.Drawing.Point(1, 1)
+        Me.TxtLog.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtLog.Multiline = True
+        Me.TxtLog.Name = "TxtLog"
+        Me.TxtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TxtLog.Size = New System.Drawing.Size(394, 475)
+        Me.TxtLog.TabIndex = 41
         '
         'Button4
         '
@@ -1460,113 +1567,6 @@ Partial Class FrmMain
         Me.TextBoxcatalogue.Name = "TextBoxcatalogue"
         Me.TextBoxcatalogue.Size = New System.Drawing.Size(430, 21)
         Me.TextBoxcatalogue.TabIndex = 120
-        '
-        'TxtLog
-        '
-        Me.TxtLog.BackColor = System.Drawing.Color.White
-        Me.TxtLog.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TxtLog.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TxtLog.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtLog.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
-        Me.TxtLog.Location = New System.Drawing.Point(1, 1)
-        Me.TxtLog.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TxtLog.Multiline = True
-        Me.TxtLog.Name = "TxtLog"
-        Me.TxtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TxtLog.Size = New System.Drawing.Size(394, 475)
-        Me.TxtLog.TabIndex = 41
-        '
-        'ColumnHeader3
-        '
-        Me.ColumnHeader3.Text = "File Name"
-        Me.ColumnHeader3.Width = 134
-        '
-        'ColumnHeader4
-        '
-        Me.ColumnHeader4.Text = "Type"
-        Me.ColumnHeader4.Width = 83
-        '
-        'ColumnHeader5
-        '
-        Me.ColumnHeader5.Text = "Caption"
-        Me.ColumnHeader5.Width = 200
-        '
-        'LstMedia
-        '
-        Me.LstMedia.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.LstMedia.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5})
-        Me.LstMedia.ContextMenuStrip = Me.ContextMenuMediaType
-        Me.LstMedia.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LstMedia.FullRowSelect = True
-        Me.LstMedia.GridLines = True
-        Me.LstMedia.HideSelection = False
-        Me.LstMedia.Location = New System.Drawing.Point(1, 32)
-        Me.LstMedia.MultiSelect = False
-        Me.LstMedia.Name = "LstMedia"
-        Me.LstMedia.Size = New System.Drawing.Size(432, 98)
-        Me.LstMedia.SmallImageList = Me.ImageListMediaType
-        Me.LstMedia.TabIndex = 49
-        Me.LstMedia.UseCompatibleStateImageBehavior = False
-        Me.LstMedia.View = System.Windows.Forms.View.Details
-        '
-        'ClnNumber
-        '
-        Me.ClnNumber.Text = "Name"
-        Me.ClnNumber.Width = 120
-        '
-        'ColumnHeader2
-        '
-        Me.ColumnHeader2.Text = "Number"
-        Me.ColumnHeader2.Width = 115
-        '
-        'ColumnHeader1
-        '
-        Me.ColumnHeader1.Text = "Status"
-        '
-        'ColumnHeader6
-        '
-        Me.ColumnHeader6.Text = "Var1"
-        Me.ColumnHeader6.Width = 100
-        '
-        'ColumnHeader7
-        '
-        Me.ColumnHeader7.Text = "Var2"
-        Me.ColumnHeader7.Width = 100
-        '
-        'ColumnHeader8
-        '
-        Me.ColumnHeader8.Text = "Var3"
-        Me.ColumnHeader8.Width = 100
-        '
-        'ColumnHeader9
-        '
-        Me.ColumnHeader9.Text = "Var4"
-        Me.ColumnHeader9.Width = 100
-        '
-        'ColumnHeader10
-        '
-        Me.ColumnHeader10.Text = "Var5"
-        Me.ColumnHeader10.Width = 100
-        '
-        'LstNumbers
-        '
-        Me.LstNumbers.BackColor = System.Drawing.Color.White
-        Me.LstNumbers.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.LstNumbers.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ClnNumber, Me.ColumnHeader2, Me.ColumnHeader1, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10})
-        Me.LstNumbers.ContextMenuStrip = Me.MnStrpImports
-        Me.LstNumbers.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LstNumbers.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LstNumbers.FullRowSelect = True
-        Me.LstNumbers.GridLines = True
-        Me.LstNumbers.HideSelection = False
-        Me.LstNumbers.Location = New System.Drawing.Point(1, 40)
-        Me.LstNumbers.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LstNumbers.Name = "LstNumbers"
-        Me.LstNumbers.Size = New System.Drawing.Size(326, 475)
-        Me.LstNumbers.SmallImageList = Me.ImageList1
-        Me.LstNumbers.TabIndex = 23
-        Me.LstNumbers.UseCompatibleStateImageBehavior = False
-        Me.LstNumbers.View = System.Windows.Forms.View.Details
         '
         'Label9
         '

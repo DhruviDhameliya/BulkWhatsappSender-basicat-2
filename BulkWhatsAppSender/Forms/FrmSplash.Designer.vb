@@ -33,7 +33,7 @@ Partial Class FrmSplash
         Me.LblVersion.AutoSize = True
         Me.LblVersion.BackColor = System.Drawing.Color.Transparent
         Me.LblVersion.ForeColor = System.Drawing.Color.Black
-        Me.LblVersion.Location = New System.Drawing.Point(371, 260)
+        Me.LblVersion.Location = New System.Drawing.Point(218, 5)
         Me.LblVersion.Name = "LblVersion"
         Me.LblVersion.Size = New System.Drawing.Size(57, 13)
         Me.LblVersion.TabIndex = 0
@@ -44,7 +44,7 @@ Partial Class FrmSplash
         Me.LblBuidDate.AutoSize = True
         Me.LblBuidDate.BackColor = System.Drawing.Color.Transparent
         Me.LblBuidDate.ForeColor = System.Drawing.Color.Black
-        Me.LblBuidDate.Location = New System.Drawing.Point(434, 260)
+        Me.LblBuidDate.Location = New System.Drawing.Point(281, 5)
         Me.LblBuidDate.Name = "LblBuidDate"
         Me.LblBuidDate.Size = New System.Drawing.Size(69, 13)
         Me.LblBuidDate.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class FrmSplash
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(397, 279)
+        Me.Label1.Location = New System.Drawing.Point(244, 24)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(77, 13)
         Me.Label1.TabIndex = 2
@@ -66,7 +66,7 @@ Partial Class FrmSplash
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(596, 344)
+        Me.ClientSize = New System.Drawing.Size(602, 357)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LblBuidDate)
         Me.Controls.Add(Me.LblVersion)

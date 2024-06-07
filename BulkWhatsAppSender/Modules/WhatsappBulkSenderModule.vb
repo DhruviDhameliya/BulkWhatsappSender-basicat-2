@@ -271,20 +271,6 @@ Module WhatsappBulkSenderModule
         Return Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\BulkWhatsappSender"
 
     End Function
-    Public Function ChackOrderNumberExist() As Boolean
-        Try
-            Dim license As String = GetSetting(ApplicationTitle, "license", "key", "")
-            If (license <> "") Then
-                Return True
-            Else
-                Dim ordernumber = GetSetting(ApplicationTitle, "request", "key", "")
-                Dim orderExist As String = getServerData(ServerURL + "isorderexist/" + ordernumber, False)
-                Return CBool(orderExist)
-            End If
-        Catch ex As Exception
-            Return False
-        End Try
-    End Function
     Public Function GetDriveSerialNumber(mobile As String) As String
         Try
             Dim mac = getMac()
@@ -337,6 +323,16 @@ Module WhatsappBulkSenderModule
         Catch ex As Exception
             MsgBox("Not able to connect with Server check your Internet Connection" & ex.Message)
             Return "Something Went Wrong, Try Again"
+        End Try
+    End Function
+    Public Function ChackOrderNumberExist() As Boolean
+        Try
+            Dim ordernumber = GetSetting(ApplicationTitle, "request", "key", "")
+            Dim orderExist As String = getServerData(ServerURL + "isorderexist/" + ordernumber, False)
+            Console.WriteLine("orderExist " & orderExist)
+            Return CBool(orderExist)
+        Catch ex As Exception
+            Return False
         End Try
     End Function
     Public Function jsonParse(Json As String) As Object

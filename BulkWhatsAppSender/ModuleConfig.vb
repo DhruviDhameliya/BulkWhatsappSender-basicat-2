@@ -5,7 +5,7 @@
     Public appversion As String = 1 ' 1 for basic and 2 for catelogue
     Public ApplicationTitle As String = ""
     Public ApplicationVersion As String = ""
-    Public BuildDate As String = "19-04-2024 | 124 Chrome"
+    Public BuildDate As String = "06-06-2024 | 125 Chrome"
     Public Appv As String = "15.0"
     Public version As String = ""
     Public checkappversion As Boolean = True
