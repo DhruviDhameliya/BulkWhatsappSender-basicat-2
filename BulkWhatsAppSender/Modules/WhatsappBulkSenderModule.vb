@@ -86,54 +86,11 @@ Module WhatsappBulkSenderModule
     Public Class Messages
         Public Shared DELETE_NUMBER As String = GetTranslation("BWS_DELETE_NUMBERS")
         Public Shared CLEAR_LIST As String = GetTranslation("BWS_CLEAR_LIST")
-        Public Shared NEW_BULK As String = GetTranslation("BWS_NEW_BULK")
         Public Shared NO_NUMBERS As String = GetTranslation("BWS_NO_NUMBERS")
         Public Shared NO_MESSAGE As String = GetTranslation("BWS_NO_MESSAGE")
         Public Shared STOP_BULK As String = GetTranslation("BWS_STOP_BULK")
     End Class
-    Public Structure ValidateMobileNumberResult
-        Public IsValid As Boolean
-        Public MobileNumber As String
-    End Structure
-    Public Function ValidateMobileNumber(ByVal Number As String) As ValidateMobileNumberResult
-        Dim _result As New ValidateMobileNumberResult
-
-        If Number.StartsWith("+") Then
-            Number = Number.Replace(" ", "")
-            Number = Number.Replace("+", "")
-            Number = Number.Replace("\", "")
-            Number = Number.Replace("/", "")
-            Number = Number.Replace("-", "")
-            Number = Number.Replace("_", "")
-            Number = Number.Replace(".", "")
-        End If
-
-        If IsNumeric(Number) Then
-            If Number.Length > 5 And Number.Length < 27 Then
-
-                _result.IsValid = True
-                _result.MobileNumber = Number
-
-                Return _result
-            Else
-                _result.IsValid = False
-                _result.MobileNumber = Number
-            End If
-        Else
-            _result.IsValid = False
-            _result.MobileNumber = Number
-        End If
-        Return _result
-    End Function
     Public Delegate Sub AppendTextBoxDelegate(ByVal TB As TextBox, ByVal txt As String)
-    Public Sub AppendTextBox(ByVal TB As TextBox, ByVal txt As String)
-        On Error Resume Next
-        If TB.InvokeRequired Then
-            TB.Invoke(New AppendTextBoxDelegate(AddressOf AppendTextBox), New Object() {TB, txt})
-        Else
-            TB.AppendText(txt)
-        End If
-    End Sub
     Public Function TxtID() As String
         Randomize()
         Return "MSG" & Now.ToString("yyyyMMddhhmmss") & Int(Rnd() * 10) & Int(Rnd() * 10) & Int(Rnd() * 10) & Int(Rnd() * 10) & Int(Rnd() * 10) & Int(Rnd() * 10) & Int(Rnd() * 10)
@@ -313,6 +270,20 @@ Module WhatsappBulkSenderModule
         'Environment.SpecialFolder.LocalApplicationData
         Return Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\BulkWhatsappSender"
 
+    End Function
+    Public Function ChackOrderNumberExist() As Boolean
+        Try
+            Dim license As String = GetSetting(ApplicationTitle, "license", "key", "")
+            If (license <> "") Then
+                Return True
+            Else
+                Dim ordernumber = GetSetting(ApplicationTitle, "request", "key", "")
+                Dim orderExist As String = getServerData(ServerURL + "isorderexist/" + ordernumber, False)
+                Return CBool(orderExist)
+            End If
+        Catch ex As Exception
+            Return False
+        End Try
     End Function
     Public Function GetDriveSerialNumber(mobile As String) As String
         Try

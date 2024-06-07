@@ -38,7 +38,7 @@ Partial Class FrmNumberGenerator
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.LblNumbers)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
