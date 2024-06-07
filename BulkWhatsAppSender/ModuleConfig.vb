@@ -1,7 +1,7 @@
 ﻿Module ModuleConfig
 
     Public AccountURL As String = ""
-    Public ServerURL As String = "http://192.168.1.30:8085/" 'you can host getlic on your server
+    Public ServerURL As String = "http://api.bulkwhatsappmarketing.in/" 'you can host getlic on your server
     Public appversion As String = 1 ' 1 for basic and 2 for catelogue
     Public ApplicationTitle As String = ""
     Public ApplicationVersion As String = ""
@@ -112,10 +112,10 @@
     End Function
 
 
-    Public HeaderColor As Color = Color.FromArgb(0, 64, 0) ' Color Sequence R G B
+    Public HeaderColor As Color = Color.FromArgb(16, 69, 77) ' Color Sequence R G B
     Public MenuColor As Color = Color.FromArgb(237, 248, 245) ' Color Sequence R G B
 
-    Public DefaultHeaderColor As Color = Color.FromArgb(0, 64, 0) ' Color Sequence R G B
+    Public DefaultHeaderColor As Color = Color.FromArgb(16, 69, 77) ' Color Sequence R G B
     Public DefaultMenuColor As Color = Color.FromArgb(237, 248, 245) ' Color Sequence R G B
 
     Public ShowAbout As Boolean = True

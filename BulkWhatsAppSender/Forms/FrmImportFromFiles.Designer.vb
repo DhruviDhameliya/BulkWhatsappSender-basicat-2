@@ -57,7 +57,7 @@ Partial Class FrmImportFromFiles
         '
         'BtnOpenDialog
         '
-        Me.BtnOpenDialog.BackColor = System.Drawing.Color.DarkGreen
+        Me.BtnOpenDialog.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.BtnOpenDialog.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnOpenDialog.ForeColor = System.Drawing.Color.White
         Me.BtnOpenDialog.Location = New System.Drawing.Point(380, 79)
@@ -100,7 +100,7 @@ Partial Class FrmImportFromFiles
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Label3)
         Me.Panel3.Controls.Add(Me.LblNumbers)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top

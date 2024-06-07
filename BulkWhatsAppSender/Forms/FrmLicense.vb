@@ -9,8 +9,8 @@ Public Class FrmLicense
     Private Sub FrmLicense_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Text = "Activate Application"
         Dim ordernumber = GetSetting(ApplicationTitle, "request", "key", "")
-        Console.WriteLine("on" & ordernumber.Length)
-        If (ordernumber <> "0" And ordernumber <> "") Then
+        Dim ordernumberExist = ChackOrderNumberExist()
+        If (ordernumber <> "0" And ordernumber <> "" And ordernumberExist) Then
             If appversion = 1 Then
                 requestkeyTextBox.Text = "BWMS - " + ordernumber
             Else

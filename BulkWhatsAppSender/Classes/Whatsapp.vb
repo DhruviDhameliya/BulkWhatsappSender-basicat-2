@@ -502,21 +502,6 @@ skipMessage:
         Dim e As New EventArgs
         RaiseEvent OnBulkEnd(EndBulkResult, e)
     End Sub
-    Private Function GetMsgType(ByVal FileName As String) As Integer
-        Dim a() As String = Split(FileName, ".")
-        Select Case LCase(a(UBound(a)))
-            Case "jpg"
-                Return 2
-            Case "gif"
-                Return 2
-            Case "png"
-                Return 2
-            Case "mp4"
-                Return 2
-            Case Else
-                Return 3
-        End Select
-    End Function
     Public Function ExecuteChromeScript(ByVal Script As String) As String
         Try
             Return ChromeDrv.ExecuteScript(Script).ToString
